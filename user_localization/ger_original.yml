@@ -1,0 +1,268 @@
+# Nachricht, wenn der Rucksack aus der Datenbank geladen wird (nach Interaktion des Spielers)
+backpack-loading: "<#eb0000>Rucksack wird geladen..."
+# Nachricht, wenn der Rucksack erfolgreich geladen wurde
+backpack-loaded: "<white>Der Rucksack wurde geladen"
+# Nachricht, wenn der Rucksack aktualisiert wird und der Spieler versucht, ihn zu öffnen
+backpack-updating: "<white>Aktualisierung des Rucksacks läuft"
+# Nachricht, wenn der Rucksack nicht geladen werden konnte
+backpack-loading-error: "<red>Fehler beim Laden des Rucksacks aufgetreten"
+# Wenn ein Spieler versucht, einen Rucksack zu öffnen, der bereits von einem anderen Spieler benutzt wird
+backpack-is-used-by-another-player: "<red>Dieser Rucksack wird bereits von einem anderen Spieler benutzt"
+
+# Nachricht, wenn der Admin das Crafting ändert
+backpack-crafting-change: "<#f2e8cf>Das ausgewählte Crafting-Rezept wurde <#a5C756>erfolgreich <#f2e8cf>aktualisiert."
+# Nachricht, wenn versucht wird das Crafting zu ändern, es aber leer lub identisch mit dem vorherigen ist
+backpack-crafting-cannot-change: "<red>Das Crafting des Rucksacks kann nicht geändert werden, vielleicht ist es leer oder identisch"
+# Nachricht, wenn der Admin Crafting-Änderungen abbricht
+backpack-crafting-change-cancelled: "<red>Änderungen am Rucksack-Crafting abgebrochen"
+
+# Nachricht, nachdem der Rucksack über die Ansicht eines Spielers hinzugefügt wurde
+# %player% Name des Rucksack-Besitzers
+backpack-added-inventory: "<gold>Rucksack des Spielers<dark_gray>: <white>%player% <gold>deinem Inventar hinzugefügt"
+
+# Wenn ein Spieler keine Berechtigungen hat
+command-no-permissions: "<dark_red>Du hast keine Berechtigung, diesen Befehl zu verwenden"
+# Wenn ein Spieler einen Cooldown hat
+cooldown-message: "<#eb0000>Du musst warten, bevor du dies erneut verwenden kannst"
+# Wenn ein Spieler nicht berechtigt ist, einen Rucksack zu öffnen
+backpack-no-permission-use: "<dark_red>Du hast keine Berechtigung, diesen Rucksack zu öffnen"
+# Wenn der Rucksack des Spielers lädt (über den Befehl)
+loading-in-progress: "<gold>Ladevorgang läuft... bitte einen Moment warten"
+# Wenn die Rucksäcke der Spieler nicht geladen werden konnten
+players-backpack-not-loaded: "<red>Die Rucksäcke der Spieler konnten nicht geladen werden"
+# Wenn der Spieler noch keine Rucksäcke erstellt hat
+player-not-created-backpacks: "<gray>Dieser Spieler hat noch keine Rucksäcke erstellt"
+# Wenn der Spieler offline ist
+# %player% > Spielername
+player-is-offline: "<gray>Spieler<dark_gray>: <white>%player% <gray> ist offline"
+
+# Nachricht, wenn ein Spieler versucht, mehr als einen Rucksack zu tragen (nur wenn limit-backpack-per-inventory aktiv ist)
+one-backpack-per-inventory: "<red>Du kannst nur einen Rucksack tragen"
+
+# Nachricht, wenn ein Spieler versucht, mehr als x Rucksäcke zu tragen (nur wenn limit-backpack-per-inventory aktiv ist)
+multiple-backpack-per-inventory: "<red>Du kannst nur %amount% Rucksäcke tragen"
+
+# Nachricht, wenn ein Spieler versucht, ein Item in einen gesperrten Behälter zu legen
+blocked-backpack-insert-message: "<red>Du kannst dieses Item hier nicht platzieren!"
+
+# Nachricht, wenn das Resourcepack geladen wurde (leer lassen für keine Nachricht)
+resourcepack-loaded: "<gold>Resourcepack wurde geladen"
+# Nachricht, wenn das Resourcepack nicht geladen werden konnte
+resourcepack-failed-load: "<gold>Fehler beim Laden des Resourcepacks"
+
+# Nachricht, wenn der Befehl nur für Spieler ist
+command-only-player: "<red>Dieses Argument kann nur von einem Spieler verwendet werden!"
+# Nachricht, wenn der Befehl nur für die Konsole ist
+command-only-console: "<red>Dieses Argument kann nur von der Konsole verwendet werden!"
+
+# Nachricht bei ungültiger UUID
+invalid-uuid: "<red>Ungültige UUID"
+
+# Nachricht, wenn ein Item blockiert wurde, %item% ist der Name des Materials
+item-has-blocked: "<gold>Das Item wurde blockiert<dark_gray>: <white>%item%"
+
+# Nachricht, wenn das angegebene Item bereits blockiert ist
+item-already-blocked: "<red>Item bereits blockiert<dark_gray>: <white>%item%"
+
+# Nachricht, wenn das Material blockiert wurde, %item% ist der Name des Materials
+material-has-blocked: "<gold>Das Material wurde blockiert<dark_gray>: <white>%material%"
+# Nachricht, wenn das angegebene Material bereits blockiert ist
+material-already-blocked: "<red>Material bereits blockiert<dark_gray>: <white>%material%"
+# Nachricht, wenn das angegebene Material ungültig ist
+invalid-material: "<red>Ungültiger Materialname<dark_gray>: <white>%material%"
+# Nachricht, wenn der Spieler nichts in der Hand hält
+empty-hand: "<red>Du musst etwas in der Hand halten"
+
+# Nachricht, wenn der Rucksack-Tier ungültig ist
+invalid-backpack-tier: "<red>Ungültiger Rucksack-Tier<dark_gray>: <white>%tier%"
+
+# Nachricht, wenn ein Spieler einen Rucksack hinzufügt, %tier% ist die Stufe
+backpack-added: "<gold>Rucksack<dark_gray>: <white>%tier% <gold>Hinzugefügt"
+
+# Nachricht, wenn einem Spieler ein Rucksack hinzugefügt wurde
+backpack-added-player: "<gold>Rucksack<dark_gray>: <white>%tier% <gold>dem Spieler hinzugefügt<dark_gray>: <white>%player%"
+# Nachricht, wenn ein Rucksack der angegebenen Stufe nie gefunden wurde
+backpack-tier-not-found: "<red>Rucksack-Tier<dark_gray>: <white>%tier% <red>nicht gefunden"
+
+# Nachricht, wenn noch keine Spieler Rucksäcke erstellt haben oder ein Fehler aufgetreten ist
+players-not-created-backpacks: "Noch kein Spieler hat einen Rucksack erstellt oder ein Fehler ist aufgetreten"
+
+# Nachricht bei einem unerwarteten Fehler
+unexpected-error: "<red>Ein unerwarteter Fehler ist während der Befehlsausführung aufgetreten, prüfe die Konsole."
+
+# Nachricht, wenn das Resourcepack per Befehl neu geladen wurde
+resourcepack-reloaded: "<gold>Resourcepack wurde aktualisiert und bei allen Spielern neu geladen"
+
+# Nachricht, wenn das Plugin per Befehl neu geladen wurde
+plugin-reloaded: "<dark_gray>[<yellow>BackpackPlus<dark_gray>] <dark_green>Plugin neu geladen"
+
+# Nachricht, wenn ein Spieler versucht, ein Item in einen FILTERED-Rucksack zu legen, das nicht erlaubt ist
+filtered-backpack-item-not-allowed: "<red>Du kannst dieses Item nicht in diesen Rucksack legen"
+
+# Nachricht, wenn ein Spieler einen Button im Menü klickt und dieser einen Cooldown hat
+button-cooldown: "<red>Du musst weitere <white>%time% <red>Sekunden warten, bevor du erneut klicken kannst"
+
+# Nachricht, wenn bereits jemand anderes die erlaubten Items für diesen Rucksack bearbeitet
+allowed-items-gui-has-editor: "<red>Jemand bearbeitet bereits die erlaubten Items für diesen Rucksack"
+
+# Nachricht bei Fehlern beim Öffnen der GUI für erlaubte Items
+allowed-items-could-open: "<red>Erlaubte Items können nicht geöffnet werden, prüfe die Konsole und die Tier-Konfiguration"
+
+# Nachricht, wenn der Spieler nicht der Besitzer des Rucksacks ist
+not-owner: "<red>Du bist nicht der Besitzer dieses Rucksacks!"
+
+# Nachricht, wenn ein Spieler versucht, einen Rucksack mit einem nicht leeren Behälter zu craften
+crafting.blocked-filled-container: "<dark_red>Du kannst nicht mit gefüllten Behältern craften!"
+
+
+# GUI Konfiguration
+#
+# Leitfaden für Bedingungen:
+# Dieses Plugin unterstützt Bedingungen im Text mit diesen Formaten:
+#
+# STANDARDBEDINGUNGEN: %[(Bedingung)Text]%
+#    - Zeigt 'Text' wenn die Bedingung wahr ist, sonst nichts
+#
+# TERNÄRE BEDINGUNGEN: %[(Bedingung)Wahr_Text ~: Falsch_Text]%
+#    - Zeigt 'Wahr_Text' wenn wahr, sonst 'Falsch_Text'
+#    - Nutzt ~: als Trenner
+#
+# BEISPIELE AUS DIESER KONFIG:
+#   Seitenzahl: "%[(max_pages > 1)<red>Seite<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+#   Crafting-Status: "%[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+#   Aktivieren/Deaktivieren: "%[(isCraftable == true)deaktivieren ~: aktivieren]%"
+#   Typ-Umschaltung: "%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+gui:
+  # Titelformat für die GUI der erlaubten Items
+  allowed-items-gui: "<red>Erlaubte Items<dark_gray>: <white>%size% <red>Rucksack-Tier<dark_gray>: <white>%tier% %[(max_pages > 1)<red>Seite<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+
+  # Haupt-Einstellungen für Rucksäcke
+  backpack-settings-main:
+    title: '<gold>Tier<dark_gray>: <white>%tier% <gold>Rucksack-Einstellungen'
+    buttons:
+      # Button zum Bearbeiten der Crafting-Rezepte
+      edit-crafting-button:
+        display-name: "<dark_green>Klicken, um Crafting zu ändern"
+        lore:
+          - "<white>Craftbar<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+          - " "
+          - "<gray>Klicke <white><bold>LMT <reset><gray>zum Bearbeiten"
+          - "<gray>Klicke <white><bold>SHIFT + RMT <reset><gray>zum %[(isCraftable == true)Deaktivieren ~: Aktivieren]% des Craftings"
+
+      # Button für die Liste der erlaubten Items
+      allowed-items-button:
+        display-name: "<dark_green>Klicken, um erlaubte Items zu bearbeiten"
+        lore:
+          - "<gray>Aktuell erlaubte Items<dark_gray>: <red>%size%"
+          - " "
+          - "<gray>Klicke <white><bold>LMT <reset><gray>zum Öffnen der GUI"
+          - " "
+          - "<dark_gray>Greift nur, wenn der Rucksack-Typ <white>FILTERED <dark_gray>ist"
+
+      # Button zum Ändern des Rucksack-Typs
+      change-backpack-type-button:
+        display-name: "<dark_green>Klicken, um Rucksack-Typ zu ändern"
+        lore:
+          - "<gray>Aktueller Typ<dark_gray>: <red>%type%"
+          - " "
+          - "<gray>Klicke <white><bold>LMT <reset><gray>um den Typ zu ändern zu<dark_gray>: <white>%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+  # GUI zur Auswahl des Rucksacks für Crafting-Änderungen
+  backpack-chose-crafting-gui:
+    title: "<#0047F7>Wähle einen Rucksack zum Bearbeiten"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>Craftbar<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+
+  backpack-chose-recipe-gui:
+    title: "<#0047F7>Wähle einen Rucksack zur Rezeptanzeige"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>Klicke auf einen Rucksack, um das Rezept zu sehen"
+
+  backpack-view-recipe-gui:
+    title: "<#0047F7>Rezeptanzeige für Rucksack<dark_gray>: %backpack_name%"
+    buttons:
+      back-to-menu:
+        name: "<white>Zurück zum Menü"
+
+  # GUI mit allen Rucksäcken eines Spielers
+  player-backpacks-gui:
+    title: "<red>Spieler Rucksäcke<dark_gray>: <white>%playerName% %[(max_pages > 1)<red>Seite<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+    hover-text:
+      - "<dark_gray>▪ <white>Besitzer<white>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Letztes Update<white>: <green>%lastUpdated%"
+      - "<dark_gray>▪ <white>Letzter Spieler<white>: <green>%lastPlayer%"
+      - "<dark_gray>▪ <white>Rucksack ID<white>: <green>%backpackUUID%"
+
+  # Spieler-Info in der Rucksack-Übersicht
+  player-backpack-gui-info:
+    displayName: "<gold>%playerName%"
+    lore:
+      - "<white>Rucksäcke im Besitz<dark_gray>: <gold>%amount%"
+      - "<gray>Klicke <white><bold>LMT <reset><gray>um das Menü zu öffnen"
+
+  # GUI aller Spieler mit Rucksäcken
+  all-backpack-gui:
+    title: "<red>Alle Spieler mit Rucksäcken<dark_gray>: <red>Seite<dark_gray>: <gold>%page%"
+
+  # GUI zum Bearbeiten von Crafting-Rezepten
+  crafting-edit-gui:
+    title: "<#194d33>Du änderst das Crafting %crafting%"
+    buttons:
+      cancel:
+        display-name: "<#b80000><bold>Abbrechen"
+      confirm:
+        display-name: "<#008b02><bold>Bestätigen"
+
+
+# NBT Items Konfiguration
+nbt:
+  nbt-item:
+    displayName: "<white>Benutzerdefiniertes NBT Item"
+    lore:
+      - "<dark_gray>» <gray>Plugin Name<dark_gray>: <white>%plugin%"
+      - "<dark_gray>» <gray>Namespace<dark_gray>: <white>%namespace%"
+      - "<dark_gray>» <gray>Namespace-Wert: <white>%value%"
+
+items:
+  database-backpack-info:
+    lore:
+      - "<dark_gray>▪ <white>Besitzer<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Id<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Letztes Update<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Letzter Spieler<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<gray>Klicke <white><bold>LMT <reset><gray>um den Rucksack zu öffnen"
+      - "<gray>Klicke <white><bold>RMT <reset><dark_gray><bold>+ <white><bold>SHIFT <reset><gray>um ihn dem Inventar hinzuzufügen"
+
+  database-backpack-no-settings:
+    display-name: "<red>⚠ Nicht konfigurierter Rucksack"
+    lore:
+      - "<dark_gray>▪ <white>Besitzer<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Letztes Update<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Letzter Spieler<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<red>⚠ <gray>Fehlende Tier-Einstellungen<dark_gray>: <yellow>%tier%"
+      - "<red>⚠ <gray>Konfiguration erforderlich"
+
+command-usage:
+  header: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+  backpack-crafting: "<dark_gray>/<white>backpack <aqua>crafting <dark_gray>- <blue>Öffnet Crafting-GUI."
+  backpack-backpacks: "<dark_gray>/<white>backpack <aqua>backpacks <gray><<white>Spieler <gray>| <white>UUID<gray>> <dark_gray>- <blue>Zeigt Rucksäcke eines Spielers."
+  backpack-players: "<dark_gray>/<white>backpack <aqua>players <dark_gray>- <blue>Zeigt alle Spieler mit Rucksäcken."
+  backpack-resourcepack: "<dark_gray>/<white>backpack <aqua>resourcepack <dark_gray>- <blue>Lädt Resourcepack neu."
+  backpack-resourcepack-reload: "<dark_gray>/<white>backpack <aqua>resourcepack reload <dark_gray>- <blue>Lädt Resourcepack auf dem Server neu."
+  backpack-reload: "<dark_gray>/<white>backpack <aqua>reload <dark_gray>- <blue>Lädt Konfigurationen neu."
+  backpack-give: "<dark_gray>/<white>backpack <aqua>give <gray><<aqua>Tier<gray>> <gray>[<<white>Spieler<gray>>] <dark_gray>- <blue>Gibt einen Rucksack."
+  backpack-settings: "<dark_gray>/<white>backpack <aqua>settings <gray><<aqua>Tier<gray>> <dark_gray>- <blue>Öffnet Rucksack-Einstellungen."
+  backpack-block: "<dark_gray>/<white>backpack <aqua>block <gray><<white>hand <gray>| <white>Name<gray>> <gray>[<<white>Material<gray>>] <dark_gray>- <blue>Blockiert Items."
+  backpack-recipes: "<dark_gray>/<white>backpack <aqua>recipes <dark_gray>- <blue>Zeigt Rezepte."
+  footer: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+
+# Nachricht, die gesendet wird, wenn ein Spieler versucht, seinen Rucksack während des Kampfes zu öffnen.
+cannot-use-in-combat: "<red>Du kannst deinen Rucksack nicht während des Kampfes benutzen!"

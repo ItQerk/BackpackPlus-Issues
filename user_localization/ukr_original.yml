@@ -1,0 +1,282 @@
+# Повідомлення, коли рюкзак починає завантажуватися з бази даних (після взаємодії гравця)
+backpack-loading: "<#eb0000>Завантаження рюкзака..."
+# Повідомлення, коли рюкзак завантажено
+backpack-loaded: "<white>Рюкзак завантажено"
+# Повідомлення, коли рюкзак оновлюється, а гравець намагається його відкрити
+backpack-updating: "<white>Триває оновлення рюкзака"
+# Повідомлення, якщо рюкзак не вдалося завантажити
+backpack-loading-error: "<red>Виникла проблема під час завантаження рюкзака"
+# Коли гравець намагається відкрити рюкзак, який вже використовується іншим гравцем
+backpack-is-used-by-another-player: "<red>Рюкзак використовується іншим гравцем"
+
+# Повідомлення, коли адмін змінює крафт
+backpack-crafting-change: "<#f2e8cf>Обраний рецепт крафту рюкзака <#a5C756>успішно <#f2e8cf>онолено."
+# Повідомлення, коли гравець намагається змінити крафт на порожній або такий самий, як був
+backpack-crafting-cannot-change: "<red>Не вдалося змінити крафт рюкзака, можливо він порожній або такий самий"
+# Повідомлення, коли адмін скасовує зміни крафту
+backpack-crafting-change-cancelled: "<red>Зміни крафту рюкзака скасовано"
+
+# Повідомлення після додавання рюкзака через перегляд рюкзаків гравця
+# %player% Ім'я власника рюкзака
+backpack-added-inventory: "<gold>Рюкзак гравця<dark_gray>: <white>%player% <gold>додано до вашого інвентарю"
+
+# Якщо у гравця немає дозволів
+command-no-permissions: "<dark_red>У вас немає дозволу на використання цієї команди"
+# Коли у гравця діє затримка (cooldown)
+cooldown-message: "<#eb0000>Зачекайте перед наступним використанням"
+# Коли гравець не має дозволу відкрити рюкзак
+backpack-no-permission-use: "<dark_red>У вас немає дозволу на відкриття рюкзака"
+# Коли рюкзак гравця завантажується (через команду)
+loading-in-progress: "<gold>Завантаження... зачекайте хвилинку"
+# Коли не вдалося завантажити рюкзаки гравців
+players-backpack-not-loaded: "<red>Не вдалося завантажити рюкзаки гравців"
+# Коли гравець ще не створив жодного рюкзака
+player-not-created-backpacks: "<gray>Цей гравець ще не створив жодного рюкзака"
+# Коли гравець не в мережі
+# %player% > Ім'я гравця
+player-is-offline: "<gray>Гравець<dark_gray>: <white>%player% <gray> поза мережею"
+
+# Повідомлення, коли гравець намагається мати більше ніж один рюкзак (якщо ввімкнено limit-backpack-per-inventory)
+one-backpack-per-inventory: "<red>Ви можете носити лише один рюкзак"
+
+# Повідомлення, коли гравець намагається мати більше ніж x рюкзаків (якщо ввімкнено limit-backpack-per-inventory-amount)
+multiple-backpack-per-inventory: "<red>Ви можете носити лише %amount% рюкзаків"
+
+# Повідомлення, коли гравець намагається покласти предмет у заблокований контейнер
+blocked-backpack-insert-message: "<red>Ви не можете покласти цей предмет сюди!"
+
+# Повідомлення після завантаження ресурспаку - залиште порожнім, якщо повідомлення не потрібне
+resourcepack-loaded: "<gold>Ресурспак завантажено"
+# Повідомлення, якщо ресурспак не вдалося завантажити - залиште порожнім, якщо повідомлення не потрібне
+resourcepack-failed-load: "<gold>Не вдалося завантажити ресурспак"
+
+# Повідомлення, якщо команда тільки для гравця
+command-only-player: "<red>Цей аргумент може використовувати тільки гравець!"
+# Повідомлення, якщо команда тільки для консолі
+command-only-console: "<red>Цей аргумент може використовувати тільки консоль!"
+
+# Повідомлення при невірному UUID
+invalid-uuid: "<red>Неправильний UUID"
+
+# Повідомлення, коли предмет заблоковано, %item% - назва матеріалу
+item-has-blocked: "<gold>Предмет заблоковано<dark_gray>: <white>%item%"
+
+# Повідомлення, якщо предмет вже заблоковано
+item-already-blocked: "<red>Предмет уже заблоковано<dark_gray>: <white>%item%"
+
+# Повідомлення, коли матеріал заблоковано, %material% - назва матеріалу
+material-has-blocked: "<gold>Матеріал заблоковано<dark_gray>: <white>%material%"
+# Повідомлення, якщо матеріал вже заблоковано
+material-already-blocked: "<red>Матеріал уже заблоковано<dark_gray>: <white>%material%"
+# Повідомлення, якщо назва матеріалу невірна
+invalid-material: "<red>Неправильна назва матеріалу<dark_gray>: <white>%material%"
+# Повідомлення, якщо рука порожня
+empty-hand: "<red>Ви повинні тримати щось у руці"
+
+# Повідомлення, якщо рівень (tier) рюкзака невірний
+invalid-backpack-tier: "<red>Неправильний рівень рюкзака<dark_gray>: <white>%tier%"
+
+# Повідомлення, коли гравець додає рюкзак, %tier% - рівень рюкзака
+backpack-added: "<gold>Рюкзак<dark_gray>: <white>%tier% <gold>Додано"
+
+# Повідомлення, коли рюкзак додано гравцеві, %tier% - рівень, %player% - ім'я гравця
+backpack-added-player: "<gold>Рюкзак<dark_gray>: <white>%tier% <gold>Додано гравцеві<dark_gray>: <white>%player%"
+# Повідомлення, якщо рюкзак вказаного рівня не знайдено
+backpack-tier-not-found: "<red>Рюкзак рівня<dark_gray>: <white>%tier% <red>не знайдено"
+
+# Повідомлення, якщо жоден гравець ще не створив рюкзаків або щось пішло не так
+players-not-created-backpacks: "Жоден гравець ще не створив рюкзак або сталася помилка"
+
+# Повідомлення при виникненні непередбачуваної помилки
+unexpected-error: "<red>Під час виконання команди сталася помилка, перевірте консоль."
+
+# Повідомлення при перезавантаженні ресурспаку командою
+resourcepack-reloaded: "<gold>Ресурспак оновлено та перезавантажено для всіх гравців"
+
+# Повідомлення при перезавантаженні плагіна командою
+plugin-reloaded: "<dark_gray>[<yellow>BackpackPlus<dark_gray>] <dark_green>Плагін перезавантажено"
+
+# Повідомлення, коли гравець намагається покласти предмет у рюкзак типу FILTERED, де він заборонений
+filtered-backpack-item-not-allowed: "<red>Ви не можете покласти цей предмет у цей рюкзак"
+
+# Повідомлення, коли гравець натискає кнопку в меню, яка має затримку
+button-cooldown: "<red>Зачекайте <white>%time% <red>сек. перед наступним натисканням"
+
+# Повідомлення, коли хтось інший вже редагує список дозволених предметів для цього рюкзака
+allowed-items-gui-has-editor: "<red>Хтось уже редагує дозволені предмети для цього рюкзака"
+
+# Повідомлення, якщо не вдалося відкрити меню дозволених предметів
+allowed-items-could-open: "<red>Не вдалося відкрити дозволені предмети, перевірте консоль та конфігурацію рівня"
+
+# Повідомлення, якщо гравець не є власником рюкзака
+not-owner: "<red>Ви не є власником цього рюкзака!"
+
+# Повідомлення, коли гравець намагається крафтити рюкзак, використовуючи не порожній контейнер
+crafting.blocked-filled-container: "<dark_red>Ви не можете крафтити, використовуючи заповнені контейнери!"
+
+
+# Конфігурація GUI
+#
+# Посібник з умовних операторів:
+# Цей плагін підтримує умовні вирази в тексті:
+#
+# СТАНДАРТНІ УМОВИ: %[(condition)text]%
+#    - Показує 'text', якщо умова істинна, інакше нічого
+#
+# ТЕРНАРНІ УМОВИ: %[(condition)true_text ~: false_text]%
+#    - Показує 'true_text', якщо умова істинна, інакше 'false_text'
+#    - Використовує ~: як роздільник
+#
+# ПРИКЛАДИ З КОНФІГУ:
+#   Пагінація: "%[(max_pages > 1)<red>Сторінка<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+#   Статус крафту: "%[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+#   Увімкнути/вимкнути: "%[(isCraftable == true)вимкнути ~: увімкнути]%"
+#   Зміна типу: "%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+gui:
+  # Формат заголовка для GUI дозволених предметів
+  allowed-items-gui: "<red>Дозволені предмети<dark_gray>: <white>%size% <red>Рівень<dark_gray>: <white>%tier% %[(max_pages > 1)<red>Стор.<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+
+  # Головне меню налаштувань рюкзака
+  backpack-settings-main:
+    title: '<gold>Рівень<dark_gray>: <white>%tier% <gold>налаштування рюкзака'
+    buttons:
+      # Кнопка для редагування рецептів крафту
+      edit-crafting-button:
+        display-name: "<dark_green>Натисніть, щоб змінити крафт"
+        lore:
+          - "<white>Можна скрафтити<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+          - " "
+          - "<gray>Натисніть <white><bold>LMB <reset><gray>Щоб редагувати крафт"
+          - "<gray>Натисніть <white><bold>SHIFT + RMB <reset><gray>щоб %[(isCraftable == true)вимкнути ~: увімкнути]% можливість крафту"
+
+      # Кнопка керування списком дозволених предметів
+      allowed-items-button:
+        display-name: "<dark_green>Натисніть, щоб змінити дозволені предмети"
+        lore:
+          - "<gray>Зараз дозволено предметів<dark_gray>: <red>%size%"
+          - " "
+          - "<gray>Натисніть <white><bold>LMB <reset><gray>Щоб відкрити меню дозволених предметів"
+          - " "
+          - "<dark_gray>Враховує ці предмети, якщо рюкзак має тип <white>FILTERED"
+
+      # Кнопка для зміни типу рюкзака між DEFAULT та FILTERED
+      change-backpack-type-button:
+        display-name: "<dark_green>Натисніть, щоб змінити тип рюкзака"
+        lore:
+          - "<gray>Поточний тип рюкзака<dark_gray>: <red>%type%"
+          - " "
+          - "<gray>Натисніть <white><bold>LMB <reset><gray>Щоб змінити тип на<dark_gray>: <white>%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+  # Меню вибору рюкзака для редагування крафту
+  backpack-chose-crafting-gui:
+    title: "<#0047F7>Оберіть рюкзак для редагування"
+    buttons:
+      # Кнопка вибору конкретного рюкзака
+      select-backpack-button:
+        lore:
+          - "<white>Можна скрафтити<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+
+  backpack-chose-recipe-gui:
+    title: "<#0047F7>Оберіть рюкзак, щоб переглянути його рецепт"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>Натисніть на рюкзак, щоб побачити його рецепт"
+
+  backpack-view-recipe-gui:
+    title: "<#0047F7>Перегляд рецепта для рюкзака<dark_gray>: %backpack_name%"
+    buttons:
+      back-to-menu:
+        name: "<white>Натисніть, щоб повернутися в меню"
+
+  # Меню з усіма рюкзаками конкретного гравця
+  player-backpacks-gui:
+    title: "<red>Рюкзаки гравця<dark_gray>: <white>%playerName% %[(max_pages > 1)<red>Стор.<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+    # Інформація при наведенні на предмети рюкзаків
+    hover-text:
+      - "<dark_gray>▪ <white>Власник рюкзака<white>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Останнє оновлення<white>: <green>%lastUpdated%"
+      - "<dark_gray>▪ <white>Останній гравець<white>: <green>%lastPlayer%"
+      - "<dark_gray>▪ <white>Id рюкзака<white>: <green>%backpackUUID%"
+
+  # Відображення інформації про гравця в огляді рюкзаків
+  player-backpack-gui-info:
+    displayName: "<gold>%playerName%"
+    lore:
+      - "<white>Власник рюкзаків<dark_gray>: <gold>%amount%"
+      - "<gray>Натисніть <white><bold>LMB <reset><gray>Щоб відкрити меню рюкзаків гравця"
+
+  # Меню зі списком усіх гравців, які мають рюкзаки
+  all-backpack-gui:
+    title: "<red>Всі гравці з рюкзаками<dark_gray>: <red>Стор.<dark_gray>: <gold>%page%"
+
+  # Меню редагування рецептів крафту
+  crafting-edit-gui:
+    title: "<#194d33>Ви змінюєте крафт %crafting%"
+    buttons:
+      cancel:
+        display-name: "<#b80000><bold>Скасувати"
+      confirm:
+        display-name: "<#008b02><bold>Підтвердити"
+
+
+# Конфігурація NBT предметів
+nbt:
+  # Шаблон для відображення кастомних NBT предметів
+  nbt-item:
+    displayName: "<white>Кастомний NBT предмет"
+    lore:
+      - "<dark_gray>» <gray>Назва плагіна<dark_gray>: <white>%plugin%"
+      - "<dark_gray>» <gray>Namespace<dark_gray>: <white>%namespace%"
+      - "<dark_gray>» <gray>Значення: <white>%value%"
+
+items:
+  # Відображення інформації про рюкзак у базі даних
+  database-backpack-info:
+    lore:
+      - "<dark_gray>▪ <white>Власник рюкзака<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Id<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Останнє оновлення<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Останній гравець<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<gray>Натисніть <white><bold>LMB <reset><gray>Щоб відкрити рюкзак"
+      - "<gray>Натисніть <white><bold>RMB <reset><dark_gray><bold>+ <white><bold>SHIFT <reset><gray>Щоб додати рюкзак у свій інвентар"
+
+  database-backpack-no-settings:
+    display-name: "<red>⚠ Неналаштований рюкзак"
+    lore:
+      - "<dark_gray>▪ <white>Власник<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Останнє оновлення<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Останній гравець<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<red>⚠ <gray>Відсутні налаштування рівня<dark_gray>: <yellow>%tier%"
+      - "<red>⚠ <gray>Рюкзак потребує налаштування"
+
+command-usage:
+  header: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+  # /backpack crafting
+  backpack-crafting: "<dark_gray>/<white>backpack <aqua>crafting <dark_gray>- <blue>Відкриває GUI крафту рюкзаків."
+  # /backpack backpacks <player>
+  backpack-backpacks: "<dark_gray>/<white>backpack <aqua>backpacks <gray><<white>гравець <gray>| <white>uuid гравця<gray>> <dark_gray>- <blue>Показує всі рюкзаки гравця."
+  # /backpack players
+  backpack-players: "<dark_gray>/<white>backpack <aqua>players <dark_gray>- <blue>Показує всіх гравців, які створили рюкзаки."
+  # /backpack resourcepack
+  backpack-resourcepack: "<dark_gray>/<white>backpack <aqua>resourcepack <dark_gray>- <blue>Перезавантажує ресурспак для клієнта."
+  # /backpack resourcepack reload
+  backpack-resourcepack-reload: "<dark_gray>/<white>backpack <aqua>resourcepack reload <dark_gray>- <blue>Перезавантажує ресурспак на сервері."
+  # /backpack reload
+  backpack-reload: "<dark_gray>/<white>backpack <aqua>reload <dark_gray>- <blue>Перезавантажує конфігурації."
+  # /backpack give
+  backpack-give: "<dark_gray>/<white>backpack <aqua>give <gray><<aqua>рівень<gray>> <gray>[<<white>гравець<gray>>] <dark_gray>- <blue>Видає рюкзак вам або гравцеві"
+  # /backpack settings
+  backpack-settings: "<dark_gray>/<white>backpack <aqua>settings <gray><<aqua>рівень<gray>> <dark_gray>- <blue>Відкриває налаштування рюкзака"
+  # /backpack block
+  backpack-block: "<dark_gray>/<white>backpack <aqua>block <gray><<white>hand <gray>| <white>назва<gray>> <gray>[<<white>матеріал<gray>>] <dark_gray>- <blue>Додає предмет у чорний список"
+  # /backpack recipes
+  backpack-recipes: "<dark_gray>/<white>backpack <aqua>recipes <dark_gray>- <blue>Показує рецепти рюкзаків"
+  footer: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+
+# Повідомлення, яке надсилається, коли гравець намагається відкрити рюкзак під час бою.
+cannot-use-in-combat: "<red>Ви не можете використовувати рюкзак під час бою!"

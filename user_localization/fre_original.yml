@@ -1,0 +1,291 @@
+# Updated By: hamtabot
+# Message lorsque le chargement du sac à dos commence depuis la base de données (après interaction du joueur)
+backpack-loading: '<#eb0000>Chargement du sac à dos en cours...'
+# Message lorsque le sac à dos a été chargé
+backpack-loaded: '<white>Le sac à dos a été chargé'
+# Message lorsque le sac à dos est en cours de mise à jour et que le joueur tente de l'ouvrir
+backpack-updating: '<white>Mise à jour du sac à dos en cours'
+# Message lorsque le chargement du sac à dos a échoué
+backpack-loading-error: '<red>Problème rencontré lors du chargement du sac à dos'
+# Lorsqu'un joueur tente d'ouvrir un sac à dos, mais qu'il est utilisé par un autre joueur
+backpack-is-used-by-another-player: '<red>Le sac à dos est utilisé par un autre joueur'
+
+# Message lorsque l'administrateur modifie la fabrication
+backpack-crafting-change: '<green>La fabrication du sac à dos a été modifiée'
+# Message lorsque qu'un joueur tente de modifier la fabrication alors qu'elle est vide ou identique à avant
+backpack-crafting-cannot-change: '<red>La fabrication du sac à dos ne peut pas être modifiée, peut-être est-elle vide ou identique'
+# Message lorsque l'administrateur annule les modifications de fabrication
+backpack-crafting-change-cancelled: '<red>Les modifications de fabrication du sac à dos ont été annulées'
+
+# Message après que le sac à dos a été ajouté par la vue du sac à dos du joueur
+# %player% Nom du propriétaire du sac à dos
+backpack-added-inventory: '<gold>Sac à dos du joueur ajouté<dark_gray>: <white>%player% <gold>à votre inventaire'
+
+# Si un joueur n'a pas les permissions
+command-no-permissions: '<dark_red>Vous n''avez pas les permissions pour utiliser cette commande'
+# Lorsqu'un joueur est en période de recharge
+cooldown-message: '<#eb0000>Vous devez attendre avant de l''utiliser à nouveau'
+# Lorsqu'un joueur n'est pas autorisé à ouvrir un sac à dos
+backpack-no-permission-use: '<dark_red>Vous n''avez pas les permissions pour ouvrir le sac à dos'
+# Lorsque le sac à dos du joueur se recharge (en utilisant la commande)
+loading-in-progress: '<gold>Chargement en cours... veuillez patienter un moment'
+# Lorsque les sacs à dos des joueurs n'ont pas pu être chargés
+players-backpack-not-loaded: '<red>Les sacs à dos des joueurs n''ont pas pu être chargés'
+# Lorsque le joueur n'a aucun sac à dos
+player-not-created-backpacks: '<gray>Ce joueur n''a pas encore créé de sac à dos'
+# Lorsque le joueur est hors ligne
+# %player% > Nom du Joueur
+player-is-offline: '<gray>Joueur<dark_gray>: <white>%player% <gray> est hors ligne'
+
+# Message lorsque qu'un joueur tente d'avoir plus d'un sac à dos (uniquement si l'option dans la configuration est définie sur true : limiter-un-sac-a-dos-par-inventaire)
+one-backpack-per-inventory: '<red>Vous ne pouvez transporter qu''un seul sac à dos'
+
+# Message lorsqu'un joueur essaie d'avoir plus de sacs à dos que x(limit-backpack-per-inventory-amount) (seulement si l'option dans la configuration est définie sur true : limit-backpack-per-inventory).
+multiple-backpack-per-inventory: '<red>Vous ne pouvez porter que %amount% sacs à dos'
+
+# Message lorsque le joueur essaie de mettre un objet dans le conteneur alors que celui-ci est verrouillé
+blocked-backpack-insert-message: '<red>Vous ne pouvez pas mettre cet article ici !'
+
+# Message lors du chargement du resourcepack laisser vide s'il n'y a pas de message
+resourcepack-loaded: '<gold>Le pack de ressources a été chargé'
+# Message en cas d'échec du chargement du resourcepack laisser vide s'il n'y a pas de message
+resourcepack-failed-load: '<gold>Échec du chargement du pack de ressources'
+
+# Message si la commande ne concerne que le joueur
+command-only-player: '<red>Cet argument ne peut être utilisé que par un joueur !'
+# Message si la commande n'est destinée qu'à la console
+command-only-console: '<red>Cet argument ne peut être utilisé que par une console !'
+
+# Message lorsque l'uuid n'est pas valide
+invalid-uuid: '<red>UUID incorrect'
+
+# Message lorsque l'article a été bloqué, %item% est le nom du matériau
+item-has-blocked: '<gold>L''objet a été bloqué<dark_gray>: <white>%item%'
+
+# Message lorsque l'objet donné est déjà bloqué
+item-already-blocked: '<red>Objet déjà bloqué<dark_gray>: <white>%item%'
+
+# Message lorsque le matériau a été bloqué, %item% est le nom du matériau
+material-has-blocked: '<gold>Le matériau a été bloqué<dark_gray>: <white>%material%'
+# Message lorsque le matériau donné est déjà bloqué
+material-already-blocked: '<red>Matériau déjà bloqué<dark_gray>: <white>%material%'
+# Message lorsque le matériel donné est incorrect
+invalid-material: '<red>Nom de matériau non valide<dark_gray>: <white>%material%'
+# Message lorsque le joueur a les mains vides
+empty-hand: '<red>Vous devez avoir quelque chose dans la main'
+
+# Message lorsque le niveau du sac à dos est incorrect, %tier% est la valeur donnée
+invalid-backpack-tier: '<red>Niveau de sac à dos invalide<dark_gray>: <white>%tier%'
+
+# Message lorsqu'un joueur ajoute un sac à dos, %tier% est le niveau du sac à dos
+backpack-added: '<gold>Sac à dos<dark_gray>: <white>%tier% <gold>Ajouté'
+
+# Message lorsqu'un sac à dos a été ajouté à un joueur, %tier% est le niveau du sac à dos, %player% est le nom du joueur
+backpack-added-player: '<gold>Sac à dos<dark_gray>: <white>%tier% <gold>Ajouté au joueur<dark_gray>: <white>%player%'
+# Message lorsqu'un sac à dos du niveau spécifié n'a pas été trouvé
+backpack-tier-not-found: '<red>Sac à dos<dark_gray>: <white>%tier% <red>non trouvé'
+
+# Message lorsqu'aucun joueur n'a encore créé de sac à dos ou que quelque chose s'est mal passé
+players-not-created-backpacks: 'Aucun joueur n''a encore créé de sac à dos ou quelque chose a mal tourné'
+
+# Message en cas d'erreur inattendue
+unexpected-error: '<red>Une erreur inattendue s''est produite pendant l''exécution de la commande, vérifiez la console pour les erreurs.'
+
+# Message lorsque le pack de ressources est rechargé avec la commande
+resourcepack-reloaded: '<gold>Le pack de ressources a été mis à jour et rechargé pour tous les joueurs'
+
+# Message lorsque le plugin est rechargé avec la commande
+plugin-reloaded: '<dark_gray>[<yellow>BackpackPlus<dark_gray>] <dark_green>Plugin rechargé'
+
+# Message lorsqu'un joueur tente de mettre dans un sac à dos un objet qui n'est pas autorisé type FILTERED
+filtered-backpack-item-not-allowed: '<red>Vous ne pouvez pas placer cet objet dans ce sac à dos'
+
+# Message lorsqu'un joueur essaie de cliquer sur un bouton dans un menu, et que ce bouton a un temps de recharge.
+button-cooldown: '<red>Vous devez attendre encore <white>%time% <red>secondes avant de cliquer à nouveau'
+
+# Message lorsque quelqu'un d'autre a déjà modifié les éléments autorisés pour ce sac à dos
+allowed-items-gui-has-editor: '<red>Quelqu''un est déjà en train de modifier les objets autorisés pour ce sac à dos'
+
+# Message en cas d'échec de l'ouverture de l'interface utilisateur des éléments autorisés
+allowed-items-could-open: '<red>Impossible d''ouvrir les objets autorisés, vérifiez la console et la configuration de ce sac à dos.'
+
+# Message si le joueur n'est pas le propriétaire du sac à dos
+not-owner: '<red>Vous n''êtes pas le propriétaire de ce sac à dos !'
+
+# Message lorsqu'un joueur tente de créer un sac à dos avec un conteneur non vide
+crafting.blocked-filled-container: '<dark_red>Vous ne pouvez pas fabriquer avec des conteneurs remplis !'
+
+
+# Configuration de l'interface graphique
+#
+# Guide des opérateurs conditionnels:
+# Ce plugin supporte les expressions conditionnelles dans le texte en utilisant ces formats:
+#
+# CONDITIONNELS STANDARDS: %[(condition)texte]%
+#    - Affiche 'texte' si la condition est vraie, sinon n'affiche rien
+#    - Utilisé pour: pagination, éléments optionnels
+#
+# CONDITIONNELS TERNAIRES: %[(condition)texte_vrai ~: texte_faux]%
+#    - Affiche 'texte_vrai' si la condition est vraie, sinon 'texte_faux'
+#    - Utilise ~: comme séparateur pour éviter les conflits avec les deux-points dans le texte
+#    - Utilisé pour: indicateurs de statut, changement de types
+#
+# EXEMPLES DE CETTE CONFIGURATION:
+#   Pagination: "%[(max_pages > 1)<red>Page<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+#   Statut de fabrication: "%[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+#   Activer/désactiver: "%[(isCraftable == true)désactiver ~: activer]%"
+#   Changement de type: "%[(type == DEFAULT)FILTRÉ ~: PAR DÉFAUT]%"
+#
+# OPÉRATEURS UTILISÉS DANS CETTE CONFIGURATION:
+#   >  (supérieur à)       Exemple: max_pages > 1
+#   == (égal)              Exemple: isCraftable == true, type == DEFAULT
+
+gui:
+  # Format du titre de l'interface des objets autorisés - affiche la pagination quand plusieurs pages existent
+  allowed-items-gui: "<red>Objets autorisés<dark_gray>: <white>%size% <red>Niveau sac à dos<dark_gray>: <white>%tier% %[(max_pages > 1)<red>Page<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+
+  # Interface principale des paramètres de sac à dos
+  backpack-settings-main:
+    title: "<gold>Niveau<dark_gray>: <white>%tier% <gold>paramètres du sac à dos"
+    buttons:
+      # Bouton pour modifier les recettes de fabrication
+      edit-crafting-button:
+        display-name: "<dark_green>Cliquer pour changer la fabrication"
+        lore:
+          - "<white>Peut être fabriqué<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+          - " "
+          - "<gray>Clic <white><bold>GAUCHE <reset><gray>pour éditer la fabrication"
+          - "<gray>Clic <white><bold>SHIFT + DROIT <reset><gray>pour %[(isCraftable == true)désactiver ~: activer]% la fabrication"
+
+      # Bouton pour gérer la liste des objets autorisés
+      allowed-items-button:
+        display-name: "<dark_green>Cliquer pour éditer les objets autorisés"
+        lore:
+          - "<gray>Les objets autorisés pour ce sac sont<dark_gray>: <red>%size%"
+          - " "
+          - "<gray>Clic <white><bold>GAUCHE <reset><gray>pour ouvrir l'interface des objets autorisés"
+          - " "
+          - "<dark_gray>Inclut ces objets si le sac à dos est de type <white>FILTRÉ"
+
+      # Bouton pour changer le type de sac entre PAR DÉFAUT et FILTRÉ
+      change-backpack-type-button:
+        display-name: "<dark_green>Cliquer pour éditer le type de sac"
+        lore:
+          - "<gray>Le type actuel du sac est<dark_gray>: <red>%type%"
+          - " "
+          - "<gray>Clic <white><bold>GAUCHE <reset><gray>pour changer le type en<dark_gray>: <white>%[(type == DEFAULT)FILTRÉ ~: PAR DÉFAUT]%"
+
+  # Interface pour sélectionner quel sac à dos modifier
+  backpack-chose-crafting-gui:
+    title: "<#0047F7>Sélectionnez un sac à dos à éditer"
+    buttons:
+      # Bouton de sélection de sac individuel
+      select-backpack-button:
+        lore:
+          - "<white>Peut être fabriqué<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+
+  backpack-chose-recipe-gui:
+    title: "<#0047F7>Sélectionnez un sac à dos pour voir sa recette"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>Cliquez sur un sac à dos pour afficher sa recette"
+
+  backpack-view-recipe-gui:
+    title: "<#0047F7>Recette du sac à dos<dark_gray>: %backpack_name%"
+    buttons:
+      back-to-menu:
+        name: "<white>Cliquez pour revenir au menu"
+
+  # Interface montrant tous les sacs possédés par un joueur spécifique
+  player-backpacks-gui:
+    title: "<red>Sacs du joueur<dark_gray>: <white>%playerName% %[(max_pages > 1)<red>Page<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+    # Informations affichées au survol des sacs à dos
+    hover-text:
+      - "<dark_gray>▪ <white>Propriétaire du sac<white>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Dernière mise à jour<white>: <green>%lastUpdated%"
+      - "<dark_gray>▪ <white>Dernier joueur<white>: <green>%lastPlayer%"
+      - "<dark_gray>▪ <white>ID du sac à dos<white>: <green>%backpackUUID%"
+
+  # Affichage des infos du joueur dans l'aperçu des sacs
+  player-backpack-gui-info:
+    displayName: "<gold>%playerName%"
+    lore:
+      - "<white>Sacs possédés<dark_gray>: <gold>%amount%"
+      - "<gray>Clic <white><bold>GAUCHE <reset><gray>pour ouvrir le menu des sacs du joueur"
+
+  # Interface montrant tous les joueurs possédant des sacs à dos
+  all-backpack-gui:
+    title: "<red>Tous les joueurs avec sacs<dark_gray>: <red>Page<dark_gray>: <gold>%page%"
+
+  # Interface pour l'édition des recettes de fabrication
+  crafting-edit-gui:
+    title: "<#194d33>Modification de la fabrication %crafting%"
+    buttons:
+      cancel:
+        display-name: "<#b80000><bold>Annuler"
+      confirm:
+        display-name: "<#008b02><bold>Confirmer"
+
+
+# Configuration des objets NBT
+# Paramètres pour les objets NBT personnalisés utilisables dans les sacs
+nbt:
+  # Modèle d'affichage pour les objets NBT personnalisés
+  nbt-item:
+    displayName: "<white>Objet NBT personnalisé"
+    lore:
+      - "<dark_gray>» <gray>Nom du plugin<dark_gray>: <white>%plugin%"
+      - "<dark_gray>» <gray>Namespace<dark_gray>: <white>%namespace%"
+      - "<dark_gray>» <gray>Valeur du namespace: <white>%value%"
+
+items:
+  # Affichage des infos de sac à dos de la base de données
+  # Utilisé lors de la vue des détails dans les interfaces admin/base de données
+  database-backpack-info:
+    lore:
+      - "<dark_gray>▪ <white>Propriétaire du sac<dark_gray>: <gold>%owner%"           # Affiche le propriétaire
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"                # Identifiant unique
+      - "<dark_gray>▪ <white>Dernière mise à jour<dark_gray>: <green>%lastUpdate%"         # Date de modification
+      - "<dark_gray>▪ <white>Dernier joueur<dark_gray>: <green>%lastPlayer%"         # Dernier utilisateur
+      - " "                                       # Ligne vide pour l'espacement
+      - "<gray>Clic <white><bold>GAUCHE <reset><gray>pour ouvrir le sac"
+      - "<gray>Clic <white><bold>DROIT <reset><dark_gray><bold>+ <white><bold>SHIFT <reset><gray>pour l'ajouter à l'inventaire"
+
+  database-backpack-no-settings:
+    display-name: "<red>⚠ Sac non configuré"
+    lore:
+      - "<dark_gray>▪ <white>Propriétaire<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Dernière mise à jour<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Dernier joueur<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<red>⚠ <gray>Paramètres de niveau manquants<dark_gray>: <yellow>%tier%"
+      - "<red>⚠ <gray>Le sac nécessite une configuration"
+
+command-usage:
+  header: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+  # /backpack crafting | permission: backpackplus.admin.crafting
+  backpack-crafting: "<dark_gray>/<white>backpack <aqua>crafting <dark_gray>- <blue>Ouvre l'interface de fabrication."
+  # /backpack backpacks <player> | permission: backpackplus.admin.view.backpacks
+  backpack-backpacks: "<dark_gray>/<white>backpack <aqua>backpacks <gray><<white>joueur <gray>| <white>uuid<gray>> <dark_gray>- <blue>Affiche les sacs d'un joueur."
+  # /backpack players | permission: backpackplus.admin.view.backpacks
+  backpack-players: "<dark_gray>/<white>backpack <aqua>players <dark_gray>- <blue>Affiche les joueurs possédant des sacs."
+  # /backpack resourcepack | permission: backpackplus.command.resourcepack
+  backpack-resourcepack: "<dark_gray>/<white>backpack <aqua>resourcepack <dark_gray>- <blue>Recharge le pack pour le client."
+  # /backpack resourcepack reload | permission: backpackplus.admin.resourcepack.reload
+  backpack-resourcepack-reload: "<dark_gray>/<white>backpack <aqua>resourcepack reload <dark_gray>- <blue>Recharge le pack sur le serveur."
+  # /backpack reload | permission: backpackplus.admin.reload
+  backpack-reload: "<dark_gray>/<white>backpack <aqua>reload <dark_gray>- <blue>Recharge les fichiers de configuration."
+  # /backpack give | permission: backpackplus.admin.give.backpacks
+  backpack-give: "<dark_gray>/<white>backpack <aqua>give <gray><<aqua>niveau<gray>> <gray>[<<white>joueur<gray>>] <dark_gray>- <blue>Donne un sac à dos."
+  # /backpack settings | permission: backpackplus.admin.settings
+  backpack-settings: "<dark_gray>/<white>backpack <aqua>settings <gray><<aqua>niveau<gray>> <dark_gray>- <blue>Ouvre les paramètres du niveau."
+  # /backpack block | permission: backpackplus.admin.block
+  backpack-block: "<dark_gray>/<white>backpack <aqua>block <gray><<white>main <gray>| <white>nom<gray>> <gray>[<<white>matériau<gray>>] <dark_gray>- <blue>Bloque un objet."
+  # /backpack recipes | permission: backpackplus.view.recipes
+  backpack-recipes: "<dark_gray>/<white>backpack <aqua>recipes <dark_gray>- <blue>Affiche les recettes."
+  footer: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+
+# Message envoyé lorsqu'un joueur tente d'ouvrir son sac à dos pendant un combat.
+cannot-use-in-combat: "<red>Vous ne pouvez pas utiliser votre sac à dos en combat !"

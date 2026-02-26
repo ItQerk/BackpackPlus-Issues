@@ -1,0 +1,286 @@
+# Wiadomość, gdy plecak zaczyna być ładowany z bazy danych (po interakcji gracza)
+backpack-loading: "<#eb0000>Ładowanie plecaka w toku..."
+# Wiadomość, gdy plecak został załadowany
+backpack-loaded: "<white>Plecak został załadowany"
+# Wiadomość, gdy plecak jest aktualizowany, a gracz próbuje go otworzyć
+backpack-updating: "<white>Aktualizacja plecaka w toku"
+# Wiadomość, gdy plecak nie mógł zostać załadowany
+backpack-loading-error: "<red>Napotkano problem podczas ładowania plecaka"
+# Gdy gracz próbuje otworzyć plecak, ale jest on używany przez innego gracza
+backpack-is-used-by-another-player: "<red>Plecak jest używany przez innego gracza"
+
+# Wiadomość, gdy admin zmienia crafting
+backpack-crafting-change: "<#f2e8cf>Wybrana receptura craftingu plecaka została <#a5C756>pomyślnie <#f2e8cf>zaktualizowana."
+# Wiadomość, gdy gracz próbuje zmienić crafting, gdy jest pusty lub taki sam jak wcześniej
+backpack-crafting-cannot-change: "<red>Nie można zmienić craftingu plecaka, być może jest pusty lub taki sam"
+# Wiadomość, gdy admin anuluje zmiany w craftingu
+backpack-crafting-change-cancelled: "<red>Zmiany w craftingu plecaka zostały anulowane"
+
+# Wiadomość po dodaniu plecaka przez widok plecaków gracza
+# %player% Nazwa właściciela plecaka
+backpack-added-inventory: "<gold>Dodano plecak gracza<dark_gray>: <white>%player% <gold>do Twojego ekwipunku"
+
+# Jeśli gracz nie ma uprawnień
+command-no-permissions: "<dark_red>Nie masz uprawnień do użycia tej komendy"
+# Gdy gracz ma cooldown (czas odnowienia)
+cooldown-message: "<#eb0000>Musisz poczekać przed ponownym użyciem"
+# Gdy gracz nie ma uprawnień do otwarcia plecaka
+backpack-no-permission-use: "<dark_red>Nie masz uprawnień, aby otworzyć ten plecak"
+# Gdy plecak gracza się ładuje (przy użyciu komendy)
+loading-in-progress: "<gold>Ładowanie w toku... proszę chwilę poczekać"
+# Gdy nie udało się załadować plecaków graczy
+players-backpack-not-loaded: "<red>Nie udało się załadować plecaków graczy"
+# Gdy gracz nie posiada żadnego plecaka
+player-not-created-backpacks: "<gray>Ten gracz nie stworzył jeszcze żadnych plecaków"
+# Gdy gracz jest offline
+# %player% > Nazwa gracza
+player-is-offline: "<gray>Gracz<dark_gray>: <white>%player% <gray> jest offline"
+
+# Wiadomość, gdy gracz próbuje mieć więcej niż jeden plecak (tylko jeśli opcja limit-backpack-per-inventory jest włączona)
+one-backpack-per-inventory: "<red>Możesz nosić tylko jeden plecak"
+
+# Wiadomość, gdy gracz próbuje mieć więcej niż x plecaków (tylko jeśli opcja limit-backpack-per-inventory-amount jest włączona)
+multiple-backpack-per-inventory: "<red>Możesz nosić tylko %amount% plecaków"
+
+# Wiadomość, gdy gracz próbuje włożyć przedmiot do pojemnika, gdy jest on zablokowany
+blocked-backpack-insert-message: "<red>Nie możesz tutaj umieścić tego przedmiotu!"
+
+# Wiadomość po załadowaniu resourcepacka - pozostaw puste, jeśli ma nie być wiadomości
+resourcepack-loaded: "<gold>Resourcepack został załadowany"
+# Wiadomość, gdy nie uda się załadować resourcepacka - pozostaw puste, jeśli ma nie być wiadomości
+resourcepack-failed-load: "<gold>Nie udało się załadować resourcepacka"
+
+# Wiadomość, jeśli komenda jest tylko dla gracza
+command-only-player: "<red>Ten argument może być użyty tylko przez gracza!"
+# Wiadomość, jeśli komenda jest tylko dla konsoli
+command-only-console: "<red>Ten argument może być użyty tylko przez konsolę!"
+
+# Wiadomość przy nieprawidłowym UUID
+invalid-uuid: "<red>Nieprawidłowe UUID"
+
+# Wiadomość, gdy przedmiot został zablokowany, %item% to nazwa materiału
+item-has-blocked: "<gold>Przedmiot został zablokowany<dark_gray>: <white>%item%"
+
+# Wiadomość, gdy dany przedmiot jest już zablokowany
+item-already-blocked: "<red>Przedmiot jest już zablokowany<dark_gray>: <white>%item%"
+
+# Wiadomość, gdy materiał został zablokowany, %material% to nazwa materiału
+material-has-blocked: "<gold>Materiał został zablokowany<dark_gray>: <white>%material%"
+# Wiadomość, gdy dany materiał jest już zablokowany
+material-already-blocked: "<red>Materiał jest już zablokowany<dark_gray>: <white>%material%"
+# Wiadomość, gdy podany materiał jest nieprawidłowy
+invalid-material: "<red>Nieprawidłowa nazwa materiału<dark_gray>: <white>%material%"
+# Wiadomość, gdy gracz ma puste ręce
+empty-hand: "<red>Musisz trzymać coś w ręce"
+
+# Wiadomość, gdy poziom (tier) plecaka jest nieprawidłowy
+invalid-backpack-tier: "<red>Nieprawidłowy poziom plecaka<dark_gray>: <white>%tier%"
+
+# Wiadomość, gdy gracz dodaje plecak, %tier% to poziom plecaka
+backpack-added: "<gold>Plecak<dark_gray>: <white>%tier% <gold>Dodany"
+
+# Wiadomość, gdy plecak został dodany graczowi, %tier% to poziom, %player% to nazwa gracza
+backpack-added-player: "<gold>Plecak<dark_gray>: <white>%tier% <gold>Dodany graczowi<dark_gray>: <white>%player%"
+# Wiadomość, gdy nie znaleziono plecaka o podanym poziomie
+backpack-tier-not-found: "<red>Plecak<dark_gray>: <white>%tier% <red>nie został znaleziony"
+
+# Wiadomość, gdy żaden gracz nie stworzył jeszcze plecaków lub coś poszło nie tak
+players-not-created-backpacks: "Żaden gracz nie stworzył jeszcze plecaka lub wystąpił błąd"
+
+# Wiadomość, gdy wystąpi nieoczekiwany błąd
+unexpected-error: "<red>Wystąpił nieoczekiwany błąd podczas wykonywania komendy, sprawdź konsolę pod kątem błędów."
+
+# Wiadomość, gdy resourcepack zostanie przeładowany komendą
+resourcepack-reloaded: "<gold>Resourcepack został zaktualizowany i przeładowany u wszystkich graczy"
+
+# Wiadomość, gdy plugin zostanie przeładowany komendą
+plugin-reloaded: "<dark_gray>[<yellow>BackpackPlus<dark_gray>] <dark_green>Plugin został przeładowany"
+
+# Wiadomość, gdy gracz próbuje włożyć przedmiot do plecaka typu FILTERED, który na to nie pozwala
+filtered-backpack-item-not-allowed: "<red>Nie możesz włożyć tego przedmiotu do tego plecaka"
+
+# Wiadomość, gdy gracz próbuje kliknąć przycisk w menu, a posiada on cooldown
+button-cooldown: "<red>Musisz odczekać jeszcze <white>%time% <red>sekund przed ponownym kliknięciem"
+
+# Wiadomość, gdy ktoś inny edytuje już dozwolone przedmioty dla tego plecaka
+allowed-items-gui-has-editor: "<red>Ktoś już edytuje dozwolone przedmioty dla tego plecaka"
+
+# Wiadomość przy nieudanym otwarciu GUI dozwolonych przedmiotów
+allowed-items-could-open: "<red>Nie można otworzyć dozwolonych przedmiotów, sprawdź konsolę i konfigurację tego plecaka"
+
+# Wiadomość, gdy gracz nie jest właścicielem plecaka
+not-owner: "<red>Nie jesteś właścicielem tego plecaka!"
+
+# Wiadomość, gdy gracz próbuje stworzyć plecak używając niepustego pojemnika
+crafting.blocked-filled-container: "<dark_red>Nie możesz tworzyć przedmiotów używając wypełnionych pojemników!"
+
+
+# Konfiguracja GUI
+#
+# Przewodnik po operatorach warunkowych:
+# Plugin wspiera wyrażenia warunkowe w tekście używając formatów:
+#
+# STANDARDOWE WARUNKI: %[(warunek)tekst]%
+#    - Pokazuje 'tekst' jeśli warunek jest spełniony, w przeciwnym razie nic
+#
+# WARUNKI TERNARNE (TRÓJSKŁADNIKOWE): %[(warunek)prawda ~: fałsz]%
+#    - Pokazuje 'prawda' jeśli warunek jest spełniony, w przeciwnym razie 'fałsz'
+#    - Używa ~: jako separatora, aby uniknąć konfliktów z dwukropkami w tekście
+#
+# PRZYKŁADY Z TEGO CONFIGU:
+#   Stronicowanie: "%[(max_pages > 1)<red>Strona<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+#   Status craftingu: "%[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+#   Włącz/wyłącz: "%[(isCraftable == true)wyłącz ~: włącz]%"
+#   Przełączanie typu: "%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+gui:
+  # Format tytułu dla GUI dozwolonych przedmiotów - pokazuje stronicowanie przy wielu stronach
+  allowed-items-gui: "<red>Dozwolone przedmioty<dark_gray>: <white>%size% <red>Poziom plecaka<dark_gray>: <white>%tier% %[(max_pages > 1)<red>Strona<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+
+  # Główny interfejs ustawień plecaka
+  backpack-settings-main:
+    title: '<gold>Poziom<dark_gray>: <white>%tier% <gold>ustawienia plecaka'
+    buttons:
+      # Przycisk do edycji receptur craftingu
+      edit-crafting-button:
+        display-name: "<dark_green>Kliknij, aby zmienić crafting"
+        lore:
+          - "<white>Można wytworzyć<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+          - " "
+          - "<gray>Kliknij <white><bold>LPM <reset><gray>Aby edytować crafting"
+          - "<gray>Kliknij <white><bold>SHIFT + PPM <reset><gray>aby %[(isCraftable == true)wyłączyć ~: włączyć]% możliwość wytwarzania plecaka"
+
+      # Przycisk do zarządzania listą dozwolonych przedmiotów
+      allowed-items-button:
+        display-name: "<dark_green>Kliknij, aby edytować dozwolone przedmioty"
+        lore:
+          - "<gray>Aktualnie dozwolone przedmioty dla tego plecaka<dark_gray>: <red>%size%"
+          - " "
+          - "<gray>Kliknij <white><bold>LPM <reset><gray>Aby otworzyć GUI z dozwolonymi przedmiotami"
+          - " "
+          - "<dark_gray>Uwzględnia te przedmioty, jeśli plecak posiada typ <white>FILTERED"
+
+      # Przycisk do zmiany typu plecaka między DEFAULT a FILTERED
+      change-backpack-type-button:
+        display-name: "<dark_green>Kliknij, aby edytować typ plecaka"
+        lore:
+          - "<gray>Aktualny typ plecaka to<dark_gray>: <red>%type%"
+          - " "
+          - "<gray>Kliknij <white><bold>LPM <reset><gray>Aby zmienić typ na<dark_gray>: <white>%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+  # GUI do wyboru plecaka, którego crafting chcemy zmienić
+  backpack-chose-crafting-gui:
+    title: "<#0047F7>Wybierz plecak do edycji"
+    buttons:
+      # Przycisk wyboru konkretnego plecaka
+      select-backpack-button:
+        lore:
+          - "<white>Można wytworzyć<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+
+  # GUI do wyboru plecaka, którego receptura ma zostać wyświetlona
+  backpack-chose-recipe-gui:
+    title: "<#0047F7>Wybierz plecak, dla którego pokazać recepturę"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>Kliknij na plecak, aby wyświetlić jego recepturę"
+
+  # GUI wyświetlające recepturę konkretnego plecaka
+  backpack-view-recipe-gui:
+    title: "<#0047F7>Przeglądasz recepturę dla plecaka<dark_gray>: %backpack_name%"
+    buttons:
+      back-to-menu:
+        name: "<white>Kliknij, aby wrócić do menu"
+
+  # GUI pokazujące wszystkie plecaki należące do konkretnego gracza
+  player-backpacks-gui:
+    title: "<red>Plecaki gracza<dark_gray>: <white>%playerName% %[(max_pages > 1)<red>Strona<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+    # Informacje wyświetlane po najechaniu na przedmioty plecaków
+    hover-text:
+      - "<dark_gray>▪ <white>Właściciel plecaka<white>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Ostatnia aktualizacja<white>: <green>%lastUpdated%"
+      - "<dark_gray>▪ <white>Ostatni gracz<white>: <green>%lastPlayer%"
+      - "<dark_gray>▪ <white>ID plecaka<white>: <green>%backpackUUID%"
+
+  # Wyświetlanie informacji o graczu w przeglądzie plecaków
+  player-backpack-gui-info:
+    displayName: "<gold>%playerName%"
+    lore:
+      - "<white>Posiadane plecaki<dark_gray>: <gold>%amount%"
+      - "<gray>Kliknij <white><bold>LPM <reset><gray>Aby otworzyć menu plecaków gracza"
+
+  # GUI pokazujące wszystkich graczy posiadających plecaki
+  all-backpack-gui:
+    title: "<red>Wszyscy gracze z plecakami<dark_gray>: <red>Strona<dark_gray>: <gold>%page%"
+
+  # GUI do edycji receptur craftingu
+  crafting-edit-gui:
+    title: "<#194d33>Zmieniasz crafting %crafting%"
+    buttons:
+      cancel:
+        display-name: "<#b80000><bold>Anuluj"
+      confirm:
+        display-name: "<#008b02><bold>Zatwierdź"
+
+
+# Konfiguracja przedmiotów NBT
+# Ustawienia dla niestandardowych przedmiotów NBT używanych w plecakach
+nbt:
+  # Szablon wyświetlania niestandardowych przedmiotów NBT
+  nbt-item:
+    displayName: "<white>Niestandardowy przedmiot NBT"
+    lore:
+      - "<dark_gray>» <gray>Nazwa pluginu<dark_gray>: <white>%plugin%"
+      - "<dark_gray>» <gray>Przestrzeń nazw (Namespace)<dark_gray>: <white>%namespace%"
+      - "<dark_gray>» <gray>Wartość Namespace: <white>%value%"
+
+items:
+  # Wyświetlanie informacji o plecaku w bazie danych
+  # Używane przy przeglądaniu szczegółów w interfejsie administratora
+  database-backpack-info:
+    lore:
+      - "<dark_gray>▪ <white>Właściciel plecaka<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Ostatnia aktualizacja<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Ostatni gracz<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<gray>Kliknij <white><bold>LPM <reset><gray>Aby otworzyć plecak"
+      - "<gray>Kliknij <white><bold>PPM <reset><dark_gray><bold>+ <white><bold>SHIFT <reset><gray>Aby dodać plecak do ekwipunku"
+
+  database-backpack-no-settings:
+    display-name: "<red>⚠ Nieskonfigurowany plecak"
+    lore:
+      - "<dark_gray>▪ <white>Właściciel<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Ostatnia aktualizacja<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Ostatni gracz<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<red>⚠ <gray>Brak ustawień tieru<dark_gray>: <yellow>%tier%"
+      - "<red>⚠ <gray>Plecak wymaga konfiguracji"
+
+command-usage:
+  header: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+  # /backpack crafting | uprawnienie: backpackplus.admin.crafting
+  backpack-crafting: "<dark_gray>/<white>backpack <aqua>crafting <dark_gray>- <blue>Otwiera GUI z craftingiem plecaków."
+  # /backpack backpacks <player> | uprawnienie: backpackplus.admin.view.backpacks
+  backpack-backpacks: "<dark_gray>/<white>backpack <aqua>backpacks <gray><<white>gracz online <gray>| <white>uuid gracza<gray>> <dark_gray>- <blue>Wyświetla wszystkie plecaki stworzone przez gracza."
+  # /backpack players | uprawnienie: backpackplus.admin.view.backpacks
+  backpack-players: "<dark_gray>/<white>backpack <aqua>players <dark_gray>- <blue>Wyświetla wszystkich graczy, którzy stworzyli plecaki."
+  # /backpack resourcepack | uprawnienie: backpackplus.command.resourcepack
+  backpack-resourcepack: "<dark_gray>/<white>backpack <aqua>resourcepack <dark_gray>- <blue>Przeładowuje resourcepack dla klienta."
+  # /backpack resourcepack reload | uprawnienie: backpackplus.admin.resourcepack.reload
+  backpack-resourcepack-reload: "<dark_gray>/<white>backpack <aqua>resourcepack reload <dark_gray>- <blue>Przeładowuje resourcepack na serwerze."
+  # /backpack reload | uprawnienie: backpackplus.admin.reload
+  backpack-reload: "<dark_gray>/<white>backpack <aqua>reload <dark_gray>- <blue>Przeładowuje konfiguracje."
+  # /backpack give | uprawnienie: backpackplus.admin.give.backpacks
+  backpack-give: "<dark_gray>/<white>backpack <aqua>give <gray><<aqua>poziom<gray>> <gray>[<<white>gracz<gray>>] <dark_gray>- <blue>Dodaje plecak Tobie lub wybranemu graczowi"
+  # /backpack settings | uprawnienie: backpackplus.admin.settings
+  backpack-settings: "<dark_gray>/<white>backpack <aqua>settings <gray><<aqua>poziom<gray>> <dark_gray>- <blue>Otwiera ustawienia plecaka"
+  # /backpack block | uprawnienie: backpackplus.admin.block
+  backpack-block: "<dark_gray>/<white>backpack <aqua>block <gray><<white>hand <gray>| <white>name<gray>> <gray>[<<white>nazwa materiału<gray>>] <dark_gray>- <blue>Dodaje przedmiot do listy zablokowanych"
+  # /backpack recipes | uprawnienie: backpackplus.view.recipes
+  backpack-recipes: "<dark_gray>/<white>backpack <aqua>recipes <dark_gray>- <blue>Pokazuje receptury plecaków"
+  footer: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+
+# Wiadomość wysyłana, gdy gracz próbuje otworzyć plecak podczas walki.
+cannot-use-in-combat: "<red>Nie możesz używać plecaka podczas walki!"

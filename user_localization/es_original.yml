@@ -1,0 +1,268 @@
+# Mensaje cuando el mochila comienza a cargarse desde la base de datos (tras la interacción del jugador)
+backpack-loading: "<#eb0000>Cargando mochila en progreso..."
+# Mensaje cuando la mochila se ha cargado correctamente
+backpack-loaded: "<white>La mochila ha sido cargada"
+# Mensaje cuando la mochila se está actualizando y el jugador intenta abrirla
+backpack-updating: "<white>Actualización de la mochila en curso"
+# Mensaje cuando la mochila no pudo cargarse
+backpack-loading-error: "<red>Se ha encontrado un problema al cargar la mochila"
+# Cuando un jugador intenta abrir una mochila, pero está siendo usada por otro jugador
+backpack-is-used-by-another-player: "<red>Esta mochila está siendo usada por otro jugador"
+
+# Mensaje cuando el administrador cambia el crafteo
+backpack-crafting-change: "<#f2e8cf>La receta de crafteo de la mochila seleccionada ha sido actualizada <#a5C756>correctamente<#f2e8cf>."
+# Mensaje cuando un jugador intenta cambiar el crafteo y está vacío o es igual al anterior
+backpack-crafting-cannot-change: "<red>No se puede cambiar el crafteo de la mochila, quizás está vacío o es idéntico al actual"
+# Mensaje cuando el administrador cancela los cambios de crafteo
+backpack-crafting-change-cancelled: "<red>Cambios en el crafteo de la mochila cancelados"
+
+# Mensaje después de que la mochila haya sido añadida mediante la vista de mochilas del jugador
+# %player% Nombre del dueño de la mochila
+backpack-added-inventory: "<gold>Se ha añadido la mochila del jugador <white>%player% <gold>a tu inventario"
+
+# Si un jugador no tiene permisos
+command-no-permissions: "<dark_red>No tienes permisos para usar este comando"
+# Cuando un jugador tiene un tiempo de espera (cooldown)
+cooldown-message: "<#eb0000>Debes esperar antes de usar esto de nuevo"
+# Cuando un jugador no está autorizado para abrir una mochila
+backpack-no-permission-use: "<dark_red>No tienes permisos para abrir esta mochila"
+# Cuando la mochila del jugador se está recargando (usando el comando)
+loading-in-progress: "<gold>Carga en progreso... por favor espera un momento"
+# Cuando las mochilas de los jugadores no pudieron cargarse
+players-backpack-not-loaded: "<red>No se pudieron cargar las mochilas de los jugadores"
+# Cuando el jugador no tiene ninguna mochila creada
+player-not-created-backpacks: "<gray>Este jugador aún no ha creado ninguna mochila"
+# Cuando el jugador está desconectado
+# %player% > Nombre del jugador
+player-is-offline: "<gray>El jugador<dark_gray>: <white>%player% <gray> está desconectado"
+
+# Mensaje cuando un jugador intenta llevar más de una mochila (si limit-backpack-per-inventory está en true)
+one-backpack-per-inventory: "<red>Solo puedes llevar una mochila contigo"
+
+# Mensaje cuando un jugador intenta llevar más de x mochilas (según limit-backpack-per-inventory-amount)
+multiple-backpack-per-inventory: "<red>Solo puedes llevar %amount% mochilas"
+
+# Mensaje cuando el jugador intenta poner un objeto en un contenedor bloqueado
+blocked-backpack-insert-message: "<red>¡No puedes poner este objeto aquí!"
+
+# Mensaje cuando el paquete de recursos se carga (dejar en blanco si no se desea mensaje)
+resourcepack-loaded: "<gold>El paquete de recursos ha sido cargado"
+# Mensaje cuando el paquete de recursos falla al cargar
+resourcepack-failed-load: "<gold>Error al cargar el paquete de recursos"
+
+# Mensaje si el comando es solo para jugadores
+command-only-player: "<red>¡Este argumento solo puede ser usado por un jugador!"
+# Mensaje si el comando es solo para la consola
+command-only-console: "<red>¡Este argumento solo puede ser usado por la consola!"
+
+# Mensaje cuando el UUID es inválido
+invalid-uuid: "<red>UUID incorrecto"
+
+# Mensaje cuando el objeto ha sido bloqueado, %item% es el nombre del material
+item-has-blocked: "<gold>El objeto ha sido bloqueado<dark_gray>: <white>%item%"
+
+# Mensaje cuando el objeto ya está bloqueado
+item-already-blocked: "<red>El objeto ya está bloqueado<dark_gray>: <white>%item%"
+
+# Mensaje cuando el material ha sido bloqueado
+material-has-blocked: "<gold>El material ha sido bloqueado<dark_gray>: <white>%material%"
+# Mensaje cuando el material ya está bloqueado
+material-already-blocked: "<red>El material ya está bloqueado<dark_gray>: <white>%material%"
+# Mensaje cuando el nombre del material es incorrecto
+invalid-material: "<red>Nombre de material inválido<dark_gray>: <white>%material%"
+# Mensaje cuando el jugador tiene las manos vacías
+empty-hand: "<red>Debes tener algo en la mano"
+
+# Mensaje cuando el nivel (tier) de la mochila es incorrecto
+invalid-backpack-tier: "<red>Nivel de mochila inválido<dark_gray>: <white>%tier%"
+
+# Mensaje cuando un jugador añade una mochila
+backpack-added: "<gold>Mochila<dark_gray>: <white>%tier% <gold>Añadida"
+
+# Mensaje cuando se añade una mochila a un jugador específico
+backpack-added-player: "<gold>Mochila<dark_gray>: <white>%tier% <gold>Añadida al jugador<dark_gray>: <white>%player%"
+# Mensaje cuando no se encuentra el nivel de mochila especificado
+backpack-tier-not-found: "<red>Mochila<dark_gray>: <white>%tier% <red>no encontrada"
+
+# Mensaje cuando ningún jugador ha creado mochilas o algo salió mal
+players-not-created-backpacks: "Ningún jugador ha creado una mochila aún o algo ha fallado"
+
+# Mensaje cuando ocurre un error inesperado
+unexpected-error: "<red>Ocurrió un error inesperado al ejecutar el comando, revisa la consola."
+
+# Mensaje cuando el paquete de recursos se recarga con el comando
+resourcepack-reloaded: "<gold>El paquete de recursos ha sido actualizado y recargado para todos los jugadores"
+
+# Mensaje cuando el plugin se recarga con el comando
+plugin-reloaded: "<dark_gray>[<yellow>BackpackPlus<dark_gray>] <dark_green>Plugin recargado"
+
+# Mensaje cuando un jugador intenta poner un objeto prohibido en una mochila tipo FILTERED
+filtered-backpack-item-not-allowed: "<red>No puedes poner este objeto en esta mochila"
+
+# Mensaje cuando un jugador pulsa un botón del menú y tiene tiempo de espera
+button-cooldown: "<red>Debes esperar <white>%time% <red>segundos antes de pulsar de nuevo"
+
+# Mensaje cuando otra persona ya está editando los objetos permitidos de esta mochila
+allowed-items-gui-has-editor: "<red>Alguien ya está editando los objetos permitidos para esta mochila"
+
+# Mensaje cuando falla la apertura del menú de objetos permitidos
+allowed-items-could-open: "<red>No se puede abrir Objetos Permitidos, revisa la consola y la configuración de niveles"
+
+# Mensaje cuando el jugador no es el dueño de la mochila
+not-owner: "<red>¡No eres el dueño de esta mochila!"
+
+# Mensaje cuando un jugador intenta craftear con un contenedor que no está vacío
+crafting.blocked-filled-container: "<dark_red>¡No puedes craftear usando contenedores con objetos dentro!"
+
+
+# Configuración de la GUI
+#
+# Guía de Operadores Condicionales:
+# Este plugin soporta expresiones condicionales usando estos formatos:
+#
+# CONDICIONALES ESTÁNDAR: %[(condición)texto]%
+#    - Muestra 'texto' si la condición es verdadera
+#
+# CONDICIONALES TERNARIOS: %[(condición)texto_verdadero ~: texto_falso]%
+#    - Muestra 'texto_verdadero' si es true, de lo contrario 'texto_falso'
+#    - Usa ~: como separador para evitar conflictos con los dos puntos del texto
+#
+# EJEMPLOS DE ESTA CONFIG:
+#   Paginación: "%[(max_pages > 1)<red>Página<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+#   Estado de crafteo: "%[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+#   Activar/desactivar: "%[(isCraftable == true)desactivar ~: activar]%"
+#   Cambio de tipo: "%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+gui:
+  # Título para la GUI de objetos permitidos
+  allowed-items-gui: "<red>Objetos permitidos<dark_gray>: <white>%size% <red>Nivel de mochila<dark_gray>: <white>%tier% %[(max_pages > 1)<red>Pág<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+
+  # Interfaz principal de ajustes de mochila
+  backpack-settings-main:
+    title: '<gold>Nivel<dark_gray>: <white>%tier% <gold>ajustes de mochila'
+    buttons:
+      # Botón para editar recetas de crafteo
+      edit-crafting-button:
+        display-name: "<dark_green>Click para cambiar crafteo"
+        lore:
+          - "<white>Se puede craftear<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+          - " "
+          - "<gray>Click <white><bold>LMB <reset><gray>Para editar crafteo"
+          - "<gray>Click <white><bold>SHIFT + RMB <reset><gray>para %[(isCraftable == true)desactivar ~: activar]% la habilidad de crafteo"
+
+      # Botón para gestionar la lista de objetos permitidos
+      allowed-items-button:
+        display-name: "<dark_green>Click para editar objetos permitidos"
+        lore:
+          - "<gray>Objetos permitidos actualmente<dark_gray>: <red>%size%"
+          - " "
+          - "<gray>Click <white><bold>LMB <reset><gray>Para abrir el menú de objetos permitidos"
+          - " "
+          - "<dark_gray>Se aplica si la mochila es de tipo <white>FILTERED"
+
+      # Botón para cambiar el tipo de mochila
+      change-backpack-type-button:
+        display-name: "<dark_green>Click para editar tipo de mochila"
+        lore:
+          - "<gray>El tipo actual es<dark_gray>: <red>%type%"
+          - " "
+          - "<gray>Click <white><bold>LMB <reset><gray>Para cambiar el tipo a<dark_gray>: <white>%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+  # GUI para seleccionar qué mochila modificar
+  backpack-chose-crafting-gui:
+    title: "<#0047F7>Selecciona una mochila para editar"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>Se puede craftear<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+
+  backpack-chose-recipe-gui:
+    title: "<#0047F7>Selecciona una mochila para ver su receta"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>Haz click en una mochila para ver su receta"
+
+  backpack-view-recipe-gui:
+    title: "<#0047F7>Viendo la receta de la mochila<dark_gray>: %backpack_name%"
+    buttons:
+      back-to-menu:
+        name: "<white>Click para volver al menú"
+
+  # GUI mostrando mochilas de un jugador específico
+  player-backpacks-gui:
+    title: "<red>Mochilas del jugador<dark_gray>: <white>%playerName% %[(max_pages > 1)<red>Pág<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+    hover-text:
+      - "<dark_gray>▪ <white>Dueño de la mochila<white>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Última actualización<white>: <green>%lastUpdated%"
+      - "<dark_gray>▪ <white>Último jugador<white>: <green>%lastPlayer%"
+      - "<dark_gray>▪ <white>Id de mochila<white>: <green>%backpackUUID%"
+
+  # Info del jugador en la vista general
+  player-backpack-gui-info:
+    displayName: "<gold>%playerName%"
+    lore:
+      - "<white>Mochilas en propiedad<dark_gray>: <gold>%amount%"
+      - "<gray>Click <white><bold>LMB <reset><gray>Para abrir el menú de mochilas del jugador"
+
+  # GUI de todos los jugadores con mochilas
+  all-backpack-gui:
+    title: "<red>Jugadores con mochilas<dark_gray>: <red>Página<dark_gray>: <gold>%page%"
+
+  # GUI para editar crafteos
+  crafting-edit-gui:
+    title: "<#194d33>Estás cambiando el crafteo %crafting%"
+    buttons:
+      cancel:
+        display-name: "<#b80000><bold>Cancelar"
+      confirm:
+        display-name: "<#008b02><bold>Confirmar"
+
+
+# Configuración de objetos NBT
+nbt:
+  nbt-item:
+    displayName: "<white>Objeto NBT personalizado"
+    lore:
+      - "<dark_gray>» <gray>Nombre del plugin<dark_gray>: <white>%plugin%"
+      - "<dark_gray>» <gray>Namespace<dark_gray>: <white>%namespace%"
+      - "<dark_gray>» <gray>Valor del Namespace: <white>%value%"
+
+items:
+  database-backpack-info:
+    lore:
+      - "<dark_gray>▪ <white>Dueño de la mochila<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>Id<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Última actualización<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Último jugador<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<gray>Click <white><bold>LMB <reset><gray>Para abrir la mochila"
+      - "<gray>Click <white><bold>RMB <reset><dark_gray><bold>+ <white><bold>SHIFT <reset><gray>Para añadir mochila a tu inventario"
+
+  database-backpack-no-settings:
+    display-name: "<red>⚠ Mochila sin configurar"
+    lore:
+      - "<dark_gray>▪ <white>Dueño<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>Última actualización<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>Último jugador<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<red>⚠ <gray>Faltan ajustes de nivel<dark_gray>: <yellow>%tier%"
+      - "<red>⚠ <gray>La mochila requiere configuración"
+
+command-usage:
+  header: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+  backpack-crafting: "<dark_gray>/<white>backpack <aqua>crafting <dark_gray>- <blue>Abre GUI de crafteo."
+  backpack-backpacks: "<dark_gray>/<white>backpack <aqua>backpacks <gray><<white>jugador <gray>| <white>uuid<gray>> <dark_gray>- <blue>Muestra mochilas de un jugador."
+  backpack-players: "<dark_gray>/<white>backpack <aqua>players <dark_gray>- <blue>Muestra todos los jugadores con mochila."
+  backpack-resourcepack: "<dark_gray>/<white>backpack <aqua>resourcepack <dark_gray>- <blue>Recarga el paquete de recursos del cliente."
+  backpack-resourcepack-reload: "<dark_gray>/<white>backpack <aqua>resourcepack reload <dark_gray>- <blue>Recarga el paquete de recursos en el servidor."
+  backpack-reload: "<dark_gray>/<white>backpack <aqua>reload <dark_gray>- <blue>Recarga las configuraciones."
+  backpack-give: "<dark_gray>/<white>backpack <aqua>give <gray><<aqua>nivel<gray>> <gray>[<<white>jugador<gray>>] <dark_gray>- <blue>Te da una mochila o a un jugador."
+  backpack-settings: "<dark_gray>/<white>backpack <aqua>settings <gray><<aqua>nivel<gray>> <dark_gray>- <blue>Abre ajustes de mochila."
+  backpack-block: "<dark_gray>/<white>backpack <aqua>block <gray><<white>hand <gray>| <white>nombre<gray>> <gray>[<<white>material<gray>>] <dark_gray>- <blue>Bloquea objetos."
+  backpack-recipes: "<dark_gray>/<white>backpack <aqua>recipes <dark_gray>- <blue>Muestra recetas de mochilas."
+  footer: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+
+# Mensaje enviado cuando un jugador intenta abrir su mochila durante el combate.
+cannot-use-in-combat: "<red>¡No puedes usar tu mochila durante el combate!"

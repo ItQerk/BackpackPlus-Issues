@@ -1,0 +1,282 @@
+# 当背包开始从数据库加载时（玩家交互后）显示的消息
+backpack-loading: "<#eb0000>背包加载中..."
+# 背包加载完成后的消息
+backpack-loaded: "<white>背包已加载"
+# 当背包正在更新且玩家尝试打开时显示的消息
+backpack-updating: "<white>背包更新中"
+# 当背包无法加载时显示的消息
+backpack-loading-error: "<red>加载背包时遇到问题"
+# 当玩家尝试打开一个正被其他玩家使用的背包时
+backpack-is-used-by-another-player: "<red>该背包正被另一名玩家使用"
+
+# 管理员更改合成方式后的消息
+backpack-crafting-change: "<#f2e8cf>选定的背包合成配方已<#a5C756>成功<#f2e8cf>更新。"
+# 当玩家尝试更改空的或与之前相同的合成方式时的消息
+backpack-crafting-cannot-change: "<red>无法更改背包合成，可能配方为空或与之前相同"
+# 当管理员取消合成更改时的消息
+backpack-crafting-change-cancelled: "<red>背包合成更改已取消"
+
+# 通过玩家背包视图添加背包后的消息
+# %player% 背包所有者的名字
+backpack-added-inventory: "<gold>已将玩家 <white>%player% <gold>的背包添加到你的物品栏"
+
+# 如果玩家没有权限
+command-no-permissions: "<dark_red>你没有权限使用此命令"
+# 当玩家处于冷却时间时
+cooldown-message: "<#eb0000>你必须等待一段时间后才能再次使用"
+# 当玩家未获得打开背包授权时
+backpack-no-permission-use: "<dark_red>你没有打开该背包的权限"
+# 当玩家背包正在充能/加载（使用命令时）
+loading-in-progress: "<gold>加载中... 请稍候"
+# 当玩家背包无法加载时
+players-backpack-not-loaded: "<red>无法加载玩家背包"
+# 当玩家尚未创建任何背包时
+player-not-created-backpacks: "<gray>该玩家尚未创建任何背包"
+# 当玩家离线时
+# %player% > 玩家名字
+player-is-offline: "<gray>玩家<dark_gray>: <white>%player% <gray> 离线"
+
+# 当玩家尝试携带超过一个背包时（仅当配置中 limit-backpack-per-inventory 为 true 时）
+one-backpack-per-inventory: "<red>你只能携带一个背包"
+
+# 当玩家尝试携带超过限制数量的背包时
+multiple-backpack-per-inventory: "<red>你最多只能携带 %amount% 个背包"
+
+# 当玩家尝试将物品放入锁定的容器时
+blocked-backpack-insert-message: "<red>你不能把这个物品放在这里！"
+
+# 资源包加载成功后的消息（留空则不显示）
+resourcepack-loaded: "<gold>资源包已加载"
+# 资源包加载失败后的消息
+resourcepack-failed-load: "<gold>资源包加载失败"
+
+# 如果命令仅限玩家使用
+command-only-player: "<red>此参数仅限玩家使用！"
+# 如果命令仅限后台使用
+command-only-console: "<red>此参数仅限控制台使用！"
+
+# UUID 无效时的消息
+invalid-uuid: "<red>UUID 错误"
+
+# 当物品被封禁时，%item% 是材质名称
+item-has-blocked: "<gold>物品已被封禁<dark_gray>: <white>%item%"
+
+# 当指定的物品已被封禁时
+item-already-blocked: "<red>该物品已被封禁<dark_gray>: <white>%item%"
+
+# 当材质被封禁时
+material-has-blocked: "<gold>材质已被封禁<dark_gray>: <white>%material%"
+# 当指定的材质已被封禁时
+material-already-blocked: "<red>该材质已被封禁<dark_gray>: <white>%material%"
+# 当提供的材质名称不正确时
+invalid-material: "<red>无效的材质名称<dark_gray>: <white>%material%"
+# 当玩家空手时
+empty-hand: "<red>你手里必须拿着东西"
+
+# 当背包等级不正确时
+invalid-backpack-tier: "<red>无效的背包等级<dark_gray>: <white>%tier%"
+
+# 当玩家添加背包时
+backpack-added: "<gold>背包<dark_gray>: <white>%tier% <gold>已添加"
+
+# 当向玩家添加背包时
+backpack-added-player: "<gold>背包<dark_gray>: <white>%tier% <gold>已添加给玩家<dark_gray>: <white>%player%"
+# 当未找到指定等级的背包时
+backpack-tier-not-found: "<red>未找到背包等级<dark_gray>: <white>%tier%"
+
+# 当没有玩家创建背包或出错时的消息
+players-not-created-backpacks: "尚未有玩家创建背包或发生了错误"
+
+# 当发生意外错误时
+unexpected-error: "<red>执行命令时发生意外错误，请检查控制台。"
+
+# 使用命令重新加载资源包时的消息
+resourcepack-reloaded: "<gold>资源包已更新并为所有玩家重新加载"
+
+# 使用命令重新加载插件时的消息
+plugin-reloaded: "<dark_gray>[<yellow>BackpackPlus<dark_gray>] <dark_green>插件已重新加载"
+
+# 当玩家尝试将不允许的物品放入过滤型（FILTERED）背包时
+filtered-backpack-item-not-allowed: "<red>你不能将此物品放入此背包"
+
+# 当玩家点击菜单按钮且处于冷却时
+button-cooldown: "<red>你需要等待 <white>%time% <red>秒后才能再次点击"
+
+# 当有人正在编辑该背包的允许物品列表时
+allowed-items-gui-has-editor: "<red>有人正在编辑该背包的允许物品列表"
+
+# 无法打开允许物品界面时的消息
+allowed-items-could-open: "<red>无法打开允许物品列表，请检查控制台和该背包的配置"
+
+# 当玩家不是背包所有者时
+not-owner: "<red>你不是这个背包的所有者！"
+
+# 当玩家尝试使用非空容器合成背包时
+crafting.blocked-filled-container: "<dark_red>你不能使用装有物品的容器进行合成！"
+
+
+# GUI 配置
+#
+# 条件操作符指南：
+# 本插件支持在文本中使用以下格式的条件表达式：
+#
+# 标准条件：%[(condition)text]%
+#    - 如果条件为真，则显示 'text'，否则不显示
+#
+# 三元条件：%[(condition)true_text ~: false_text]%
+#    - 如果条件为真，显示 'true_text'，否则显示 'false_text'
+#    - 使用 ~: 作为分隔符以避免与文本中的冒号冲突
+#
+# 本配置中的示例：
+#   分页: "%[(max_pages > 1)<red>页码<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+#   合成状态: "%[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+#   启用/禁用: "%[(isCraftable == true)禁用 ~: 启用]%"
+#   类型切换: "%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+gui:
+  # 允许物品界面的标题格式
+  allowed-items-gui: "<red>允许的物品<dark_gray>: <white>%size% <red>背包等级<dark_gray>: <white>%tier% %[(max_pages > 1)<red>页码<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+
+  # 主背包设置界面
+  backpack-settings-main:
+    title: '<gold>等级<dark_gray>: <white>%tier% <gold>背包设置'
+    buttons:
+      # 编辑合成配方按钮
+      edit-crafting-button:
+        display-name: "<dark_green>点击更改合成"
+        lore:
+          - "<white>可合成<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+          - " "
+          - "<gray>点击 <white><bold>左键 <reset><gray>编辑合成"
+          - "<gray>点击 <white><bold>SHIFT + 右键 <reset><gray>%[(isCraftable == true)禁用 ~: 启用]%合成背包功能"
+
+      # 管理允许物品列表按钮
+      allowed-items-button:
+        display-name: "<dark_green>点击编辑允许的物品"
+        lore:
+          - "<gray>当前此背包允许的物品数<dark_gray>: <red>%size%"
+          - " "
+          - "<gray>点击 <white><bold>左键 <reset><gray>打开允许物品界面"
+          - " "
+          - "<dark_gray>当背包类型为 <white>FILTERED <dark_gray>时有效"
+
+      # 更改背包类型按钮
+      change-backpack-type-button:
+        display-name: "<dark_green>点击编辑背包类型"
+        lore:
+          - "<gray>当前背包类型为<dark_gray>: <red>%type%"
+          - " "
+          - "<gray>点击 <white><bold>左键 <reset><gray>将类型更改为<dark_gray>: <white>%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+  # 选择修改哪个背包合成的界面
+  backpack-chose-crafting-gui:
+    title: "<#0047F7>选择要编辑的背包"
+    buttons:
+      # 个人背包选择按钮
+      select-backpack-button:
+        lore:
+          - "<white>可合成<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+
+  backpack-chose-recipe-gui:
+    title: "<#0047F7>选择要显示配方的背包"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>点击背包以显示其合成配方"
+
+  backpack-view-recipe-gui:
+    title: "<#0047F7>你正在查看背包的配方<dark_gray>: %backpack_name%"
+    buttons:
+      back-to-menu:
+        name: "<white>点击返回菜单"
+
+  # 显示特定玩家拥有的所有背包的界面
+  player-backpacks-gui:
+    title: "<red>玩家背包<dark_gray>: <white>%playerName% %[(max_pages > 1)<red>页码<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+    # 悬停在背包物品上时显示的提示信息
+    hover-text:
+      - "<dark_gray>▪ <white>背包所有者<white>: <gold>%owner%"
+      - "<dark_gray>▪ <white>最后更新<white>: <green>%lastUpdated%"
+      - "<dark_gray>▪ <white>最后使用者<white>: <green>%lastPlayer%"
+      - "<dark_gray>▪ <white>背包 ID<white>: <green>%backpackUUID%"
+
+  # 背包概览中的玩家信息显示
+  player-backpack-gui-info:
+    displayName: "<gold>%playerName%"
+    lore:
+      - "<white>拥有背包数<dark_gray>: <gold>%amount%"
+      - "<gray>点击 <white><bold>左键 <reset><gray>打开该玩家的背包菜单"
+
+  # 显示所有拥有背包的玩家的界面
+  all-backpack-gui:
+    title: "<red>所有拥有背包的玩家<dark_gray>: <red>页码<dark_gray>: <gold>%page%"
+
+  # 编辑合成配方的界面
+  crafting-edit-gui:
+    title: "<#194d33>你正在更改合成 %crafting%"
+    buttons:
+      cancel:
+        display-name: "<#b80000><bold>取消"
+      confirm:
+        display-name: "<#008b02><bold>确认"
+
+
+# NBT 物品配置
+nbt:
+  # 自定义 NBT 物品显示模板
+  nbt-item:
+    displayName: "<white>自定义 NBT 物品"
+    lore:
+      - "<dark_gray>» <gray>插件名称<dark_gray>: <white>%plugin%"
+      - "<dark_gray>» <gray>命名空间<dark_gray>: <white>%namespace%"
+      - "<dark_gray>» <gray>命名空间值: <white>%value%"
+
+items:
+  # 数据库背包信息显示
+  database-backpack-info:
+    lore:
+      - "<dark_gray>▪ <white>背包所有者<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>最后更新<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>最后使用者<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<gray>点击 <white><bold>左键 <reset><gray>打开该背包"
+      - "<gray>点击 <white><bold>右键 <reset><dark_gray><bold>+ <white><bold>SHIFT <reset><gray>将背包添加到你的物品栏"
+
+  database-backpack-no-settings:
+    display-name: "<red>⚠ 未配置的背包"
+    lore:
+      - "<dark_gray>▪ <white>所有者<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>最后更新<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>最后使用者<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<red>⚠ <gray>缺失等级设置<dark_gray>: <yellow>%tier%"
+      - "<red>⚠ <gray>背包需要进行配置"
+
+command-usage:
+  header: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+  # /backpack crafting
+  backpack-crafting: "<dark_gray>/<white>backpack <aqua>crafting <dark_gray>- <blue>打开背包合成设置界面。"
+  # /backpack backpacks <player>
+  backpack-backpacks: "<dark_gray>/<white>backpack <aqua>backpacks <gray><<white>在线玩家 <gray>| <white>玩家 UUID<gray>> <dark_gray>- <blue>显示指定玩家创建的所有背包。"
+  # /backpack players
+  backpack-players: "<dark_gray>/<white>backpack <aqua>players <dark_gray>- <blue>显示所有已创建背包的玩家。"
+  # /backpack resourcepack
+  backpack-resourcepack: "<dark_gray>/<white>backpack <aqua>resourcepack <dark_gray>- <blue>为客户端重载资源包。"
+  # /backpack resourcepack reload
+  backpack-resourcepack-reload: "<dark_gray>/<white>backpack <aqua>resourcepack reload <dark_gray>- <blue>在服务器上重载资源包。"
+  # /backpack reload
+  backpack-reload: "<dark_gray>/<white>backpack <aqua>reload <dark_gray>- <blue>重载配置文件"
+  # /backpack give
+  backpack-give: "<dark_gray>/<white>backpack <aqua>give <gray><<aqua>等级<gray>> <gray>[<<white>玩家<gray>>] <dark_gray>- <blue>为你或指定玩家添加一个背包"
+  # /backpack settings
+  backpack-settings: "<dark_gray>/<white>backpack <aqua>settings <gray><<aqua>等级<gray>> <dark_gray>- <blue>打开背包设置"
+  # /backpack block
+  backpack-block: "<dark_gray>/<white>backpack <aqua>block <gray><<white>手持物品 <gray>| <white>名称<gray>> <gray>[<<white>材质名称<gray>>] <dark_gray>- <blue>将物品添加到封禁列表"
+  # /backpack recipes
+  backpack-recipes: "<dark_gray>/<white>backpack <aqua>recipes <dark_gray>- <blue>显示背包合成配方"
+  footer: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+
+# 玩家在战斗中尝试打开背包时发送的消息。
+cannot-use-in-combat: "<red>战斗期间无法使用背包！"

@@ -1,0 +1,269 @@
+# データベースからバックパックの読み込みを開始した時のメッセージ（プレイヤーの操作後）
+backpack-loading: "<#eb0000>バックパックを読み込んでいます..."
+# バックパックの読み込みが完了した時のメッセージ
+backpack-loaded: "<white>バックパックが読み込まれました"
+# バックパックの更新中にプレイヤーが開こうとした時のメッセージ
+backpack-updating: "<white>バックパックを更新中です"
+# バックパックを読み込めなかった時のメッセージ
+backpack-loading-error: "<red>バックパックの読み込み中に問題が発生しました"
+# 他のプレイヤーが使用中のバックパックを開こうとした時
+backpack-is-used-by-another-player: "<red>このバックパックは他のプレイヤーが使用中です"
+
+# 管理者がクラフトレシピを変更した時のメッセージ
+backpack-crafting-change: "<#f2e8cf>選択されたバックパックのクラフトレシピが<#a5C756>正常に<#f2e8cf>更新されました。"
+# クラフト内容が空、または以前と同じで変更できない時のメッセージ
+backpack-crafting-cannot-change: "<red>バックパックのクラフトを変更できません。空か、以前と同じ設定である可能性があります"
+# 管理者がクラフトの変更をキャンセルした時のメッセージ
+backpack-crafting-change-cancelled: "<red>バックパックのクラフト変更がキャンセルされました"
+
+# プレイヤーのバックパック一覧からバックパックが追加された後のメッセージ
+# %player% バックパック所有者の名前
+backpack-added-inventory: "<gold>プレイヤー<white>%player%<gold>のバックパックをインベントリに追加しました"
+
+# 権限がない場合
+command-no-permissions: "<dark_red>このコマンドを使用する権限がありません"
+# クールタイム中の場合
+cooldown-message: "<#eb0000>再使用までしばらくお待ちください"
+# バックパックを開く権限がない場合
+backpack-no-permission-use: "<dark_red>バックパックを開く権限がありません"
+# バックパックのチャージ中（コマンド使用時）
+loading-in-progress: "<gold>読み込み中... しばらくお待ちください"
+# プレイヤーのバックパックを読み込めなかった時
+players-backpack-not-loaded: "<red>プレイヤーのバックパックを読み込めませんでした"
+# プレイヤーがバックパックを一つも持っていない時
+player-not-created-backpacks: "<gray>このプレイヤーはまだバックパックを作成していません"
+# プレイヤーがオフラインの時
+# %player% > プレイヤー名
+player-is-offline: "<gray>プレイヤー<dark_gray>: <white>%player% <gray>はオフラインです"
+
+# バックパックを1つしか持てない設定の時に、複数持とうとした場合
+one-backpack-per-inventory: "<red>バックパックは1つしか携帯できません"
+
+# 設定された制限数（x個）以上のバックパックを持とうとした場合
+multiple-backpack-per-inventory: "<red>バックパックは %amount% 個までしか携帯できません"
+
+# ロックされているコンテナにアイテムを入れようとした時のメッセージ
+blocked-backpack-insert-message: "<red>ここにこのアイテムを置くことはできません！"
+
+# リソースパックが読み込まれた時のメッセージ（空欄で非表示）
+resourcepack-loaded: "<gold>リソースパックが読み込まれました"
+# リソースパックの読み込みに失敗した時のメッセージ
+resourcepack-failed-load: "<gold>リソースパックの読み込みに失敗しました"
+
+# プレイヤー専用コマンドをコンソールから実行した時
+command-only-player: "<red>この引数はプレイヤーのみが使用できます！"
+# コンソール専用コマンドをプレイヤーが実行した時
+command-only-console: "<red>この引数はコンソールのみが使用できます！"
+
+# UUIDが不正な時
+invalid-uuid: "<red>不正なUUIDです"
+
+# アイテムがブロックされた時（%item% は素材名）
+item-has-blocked: "<gold>アイテムがブロックされました<dark_gray>: <white>%item%"
+
+# 既にブロックされているアイテムの時
+item-already-blocked: "<red>そのアイテムは既にブロックされています<dark_gray>: <white>%item%"
+
+# 素材がブロックされた時（%material% は素材名）
+material-has-blocked: "<gold>素材がブロックされました<dark_gray>: <white>%material%"
+# 既にブロックされている素材の時
+material-already-blocked: "<red>その素材は既にブロックされています<dark_gray>: <white>%material%"
+# 素材名が正しくない時
+invalid-material: "<red>無効な素材名です<dark_gray>: <white>%material%"
+# 手に何も持っていない時
+empty-hand: "<red>アイテムを手に持ってください"
+
+# バックパックのティアが不正な時
+invalid-backpack-tier: "<red>無効なバックパックティアです<dark_gray>: <white>%tier%"
+
+# バックパックが追加された時（%tier% はティア名）
+backpack-added: "<gold>バックパック<dark_gray>: <white>%tier% <gold>を追加しました"
+
+# 他のプレイヤーにバックパックが追加された時
+backpack-added-player: "<gold>バックパック<dark_gray>: <white>%tier% <gold>をプレイヤー<dark_gray>: <white>%player% <gold>に追加しました"
+# 指定されたティアのバックパックが見つからない時
+backpack-tier-not-found: "<red>バックパックティア<dark_gray>: <white>%tier% <red>が見つかりません"
+
+# バックパックデータが存在しない、またはエラーが発生した時
+players-not-created-backpacks: "バックパックを作成したプレイヤーがいないか、エラーが発生しました"
+
+# 予期せぬエラーが発生した時
+unexpected-error: "<red>コマンド実行中に予期せぬエラーが発生しました。コンソールを確認してください。"
+
+# コマンドでリソースパックを更新した時
+resourcepack-reloaded: "<gold>全プレイヤーのリソースパックを更新・再読み込みしました"
+
+# コマンドでプラグインを再読み込みした時
+plugin-reloaded: "<dark_gray>[<yellow>BackpackPlus<dark_gray>] <dark_green>プラグインを再読み込みしました"
+
+# FILTERED（制限付き）バックパックに禁止アイテムを入れようとした時
+filtered-backpack-item-not-allowed: "<red>このアイテムをこのバックパックに入れることはできません"
+
+# クールタイム中にメニューボタンをクリックした時
+button-cooldown: "<red>あと <white>%time% <red>秒待ってからクリックしてください"
+
+# 他の誰かが既に許可アイテムリストを編集している時
+allowed-items-gui-has-editor: "<red>他の誰かがこのバックパックの許可アイテムを編集しています"
+
+# 許可アイテムGUIを開けなかった時
+allowed-items-could-open: "<red>許可アイテム一覧を開けません。コンソールとティア設定を確認してください"
+
+# 所有者ではないプレイヤーが操作しようとした時
+not-owner: "<red>あなたはこのバックパックの所有者ではありません！"
+
+# 中身が入っているコンテナでクラフトしようとした時
+crafting.blocked-filled-container: "<dark_red>中身の入ったコンテナを使用してクラフトすることはできません！"
+
+
+# GUI設定
+#
+# 条件付き演算子ガイド:
+# このプラグインは、以下の形式でテキスト内の条件式をサポートしています:
+#
+# 標準条件: %[(条件)テキスト]%
+#    - 条件が真の場合に「テキスト」を表示
+#
+# 三項演算子: %[(条件)真の場合のテキスト ~: 偽の場合のテキスト]%
+#    - 条件が真なら「真の場合のテキスト」、偽なら「偽の場合のテキスト」を表示
+#    - コロンとの競合を避けるため ~: を区切り文字として使用
+#
+# このコンフィグでの例:
+#   ページ表示: "%[(max_pages > 1)<red>ページ<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+#   クラフト可否: "%[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+#   有効/無効切り替え: "%[(isCraftable == true)無効にする ~: 有効にする]%"
+#   タイプ切り替え: "%[(type == DEFAULT)FILTERED ~: DEFAULT]%"
+
+gui:
+  # 許可アイテムGUIのタイトル
+  allowed-items-gui: "<red>許可アイテム<dark_gray>: <white>%size% <red>ティア<dark_gray>: <white>%tier% %[(max_pages > 1)<red>ページ<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+
+  # メイン設定画面
+  backpack-settings-main:
+    title: '<gold>ティア<dark_gray>: <white>%tier% <gold>バックパック設定'
+    buttons:
+      # クラフトレシピ編集ボタン
+      edit-crafting-button:
+        display-name: "<dark_green>クリックしてクラフトを変更"
+        lore:
+          - "<white>クラフト可能<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+          - " "
+          - "<gray>左クリックでクラフトを編集"
+          - "<gray>SHIFT + 右クリックでクラフトを %[(isCraftable == true)無効 ~: 有効]% に切り替え"
+
+      # 許可アイテム管理ボタン
+      allowed-items-button:
+        display-name: "<dark_green>クリックして許可アイテムを編集"
+        lore:
+          - "<gray>現在の許可アイテム数<dark_gray>: <red>%size%"
+          - " "
+          - "<gray>左クリックで許可アイテムGUIを開く"
+          - " "
+          - "<dark_gray>バックパックのタイプが <white>FILTERED <dark_gray>の場合に適用されます"
+
+      # バックパックタイプ変更ボタン
+      change-backpack-type-button:
+        display-name: "<dark_green>クリックしてタイプを編集"
+        lore:
+          - "<gray>現在のタイプ<dark_gray>: <red>%type%"
+          - " "
+          - "<gray>左クリックでタイプを <white>%[(type == DEFAULT)FILTERED ~: DEFAULT]% <gray>に変更"
+
+  # クラフト編集用バックパック選択GUI
+  backpack-chose-crafting-gui:
+    title: "<#0047F7>編集するバックパックを選択"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>クラフト可能<dark_gray>: %[(isCraftable == true)<dark_gray>[<dark_green><bold>✔<dark_gray>] ~: <dark_gray>[<red><bold>❌<dark_gray>]]%"
+
+  backpack-chose-recipe-gui:
+    title: "<#0047F7>レシピを表示するバックパックを選択"
+    buttons:
+      select-backpack-button:
+        lore:
+          - "<white>バックパックをクリックしてレシピを表示"
+
+  backpack-view-recipe-gui:
+    title: "<#0047F7>%backpack_name% のレシピを表示中"
+    buttons:
+      back-to-menu:
+        name: "<white>メニューに戻る"
+
+  # 特定プレイヤーの所有バックパック一覧GUI
+  player-backpacks-gui:
+    title: "<red>所有バックパック<dark_gray>: <white>%playerName% %[(max_pages > 1)<red>ページ<dark_gray>: <gold>%page% <dark_gray>/ <gray>%max_pages%]%"
+    hover-text:
+      - "<dark_gray>▪ <white>所有者<white>: <gold>%owner%"
+      - "<dark_gray>▪ <white>最終更新<white>: <green>%lastUpdated%"
+      - "<dark_gray>▪ <white>最終利用者<white>: <green>%lastPlayer%"
+      - "<dark_gray>▪ <white>バックパックID<white>: <green>%backpackUUID%"
+
+  # バックパック概要でのプレイヤー情報表示
+  player-backpack-gui-info:
+    displayName: "<gold>%playerName%"
+    lore:
+      - "<white>所有バックパック数<dark_gray>: <gold>%amount%"
+      - "<gray>左クリックでプレイヤーのバックパックメニューを開く"
+
+  # 全バックパック所有者一覧GUI
+  all-backpack-gui:
+    title: "<red>バックパック所有者一覧<dark_gray>: <red>ページ<dark_gray>: <gold>%page%"
+
+  # クラフトレシピ編集GUI
+  crafting-edit-gui:
+    title: "<#194d33>クラフトを変更中: %crafting%"
+    buttons:
+      cancel:
+        display-name: "<#b80000><bold>キャンセル"
+      confirm:
+        display-name: "<#008b02><bold>確定"
+
+
+# NBTアイテム設定
+nbt:
+  nbt-item:
+    displayName: "<white>カスタムNBTアイテム"
+    lore:
+      - "<dark_gray>» <gray>プラグイン名<dark_gray>: <white>%plugin%"
+      - "<dark_gray>» <gray>ネームスペース<dark_gray>: <white>%namespace%"
+      - "<dark_gray>» <gray>値: <white>%value%"
+
+items:
+  # 管理/データベース用バックパック情報
+  database-backpack-info:
+    lore:
+      - "<dark_gray>▪ <white>所有者<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>最終更新<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>最終利用者<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<gray>左クリックでバックパックを開く"
+      - "<gray>SHIFT + 右クリックでインベントリにバックパックを追加"
+
+  database-backpack-no-settings:
+    display-name: "<red>⚠ 未設定のバックパック"
+    lore:
+      - "<dark_gray>▪ <white>所有者<dark_gray>: <gold>%owner%"
+      - "<dark_gray>▪ <white>ID<dark_gray>: <gray>%backpackUUID%"
+      - "<dark_gray>▪ <white>最終更新<dark_gray>: <green>%lastUpdate%"
+      - "<dark_gray>▪ <white>最終利用者<dark_gray>: <green>%lastPlayer%"
+      - " "
+      - "<red>⚠ <gray>ティア設定が不足しています<dark_gray>: <yellow>%tier%"
+      - "<red>⚠ <gray>設定が必要です"
+
+command-usage:
+  header: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+  backpack-crafting: "<dark_gray>/<white>backpack <aqua>crafting <dark_gray>- <blue>クラフト設定GUIを開きます。"
+  backpack-backpacks: "<dark_gray>/<white>backpack <aqua>backpacks <gray><<white>プレイヤー名 <gray>| <white>UUID<gray>> <dark_gray>- <blue>指定したプレイヤーの全バックパックを表示します。"
+  backpack-players: "<dark_gray>/<white>backpack <aqua>players <dark_gray>- <blue>バックパックを作成した全プレイヤーを表示します。"
+  backpack-resourcepack: "<dark_gray>/<white>backpack <aqua>resourcepack <dark_gray>- <blue>クライアントのリソースパックを再読み込みします。"
+  backpack-resourcepack-reload: "<dark_gray>/<white>backpack <aqua>resourcepack reload <dark_gray>- <blue>サーバーのリソースパックを再読み込みします。"
+  backpack-reload: "<dark_gray>/<white>backpack <aqua>reload <dark_gray>- <blue>設定ファイルを再読み込みします。"
+  backpack-give: "<dark_gray>/<white>backpack <aqua>give <gray><<aqua>ティア<gray>> <gray>[<<white>プレイヤー<gray>>] <dark_gray>- <blue>自身または指定したプレイヤーにバックパックを付与します。"
+  backpack-settings: "<dark_gray>/<white>backpack <aqua>settings <gray><<aqua>ティア<gray>> <dark_gray>- <blue>バックパックの設定を開きます。"
+  backpack-block: "<dark_gray>/<white>backpack <aqua>block <gray><<white>hand <gray>| <white>名前<gray>> <gray>[<<white>素材名<gray>>] <dark_gray>- <blue>禁止アイテムリストに追加します。"
+  backpack-recipes: "<dark_gray>/<white>backpack <aqua>recipes <dark_gray>- <blue>バックパックのレシピを表示します。"
+  footer: "<dark_blue><strikethrough>--------------------<reset><yellow><bold>Backpack<gray><bold>Plus<reset><dark_blue><strikethrough>--------------------"
+
+# 戦闘中にプレイヤーがバックパックを開こうとしたときに送信されるメッセージ。
+cannot-use-in-combat: "<red>戦闘中はバックパックを使用できません！"
