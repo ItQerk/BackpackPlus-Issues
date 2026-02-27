@@ -1,0 +1,7 @@
+config:
+  - changed-files:
+    - any-glob-to-any-file: 'user_configs/**'
+
+language:
+  - changed-files:
+    - any-glob-to-any-file: 'user_languages/**'
